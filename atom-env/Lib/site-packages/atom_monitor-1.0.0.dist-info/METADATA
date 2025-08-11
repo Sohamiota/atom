@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: atom-monitor
+Version: 1.0.0
+Summary: Atom - A comprehensive system health monitoring tool by Times Internet
+Home-page: https://github.com/TimesInternet/atom-monitor
+Author: Soham Biswas
+Author-email: soham.biswas@timesinternet.in
+Maintainer: Times Internet Limited
+License: Proprietary
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: psutil>=5.8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=6.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.0; extra == "dev"
+Requires-Dist: black>=21.0; extra == "dev"
+Requires-Dist: flake8>=3.8; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: maintainer
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Atom - System Health Monitor
+
+A comprehensive system health monitoring tool developed by Times Internet Limited.
+
+## Installation
+
+```bash
+pip install atom-monitor
+```

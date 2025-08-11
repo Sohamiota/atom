@@ -1,0 +1,4 @@
+2025-08-11 15:50:36,539 - INFO - Starting health monitoring with 5s interval
+2025-08-11 15:50:36,540 - INFO - Will automatically stop after 2 captures
+2025-08-11 15:50:37,595 - INFO - Health data collected (capture 1)
+2025-08-11 15:50:43,661 - INFO - Health data collected (capture 2)

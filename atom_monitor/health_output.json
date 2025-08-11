@@ -1,0 +1,20 @@
+{
+  "worker_id": "8a4f7cae",
+  "worker_name": "minimal-worker",
+  "project": "system-health",
+  "environment": "production",
+  "version": "v1.0.0",
+  "cpu": 14.0,
+  "memory": {
+    "total": 16705122304,
+    "available": 2009497600,
+    "percent": 88.0
+  },
+  "disk": {
+    "total": 509722226688,
+    "used": 405046788096,
+    "percent": 79.5
+  },
+  "uptime_seconds": 1084175,
+  "timestamp": 1754894405
+}

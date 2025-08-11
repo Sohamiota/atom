@@ -1,0 +1,126 @@
+[
+  {
+    "id": "05d57aa4",
+    "name": "worker-IotasLabyrinth-d8fb0605",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754907636541,
+    "mt": 1754907636541,
+    "alivets": 1754907636541,
+    "status": 1,
+    "running": true,
+    "starttime": 1754907636539,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754907636539,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 5000,
+    "health": {
+      "diskrw": {
+        "reads": 577064,
+        "writes": 277317
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 70
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "< 1 hour"
+      },
+      "cpu": {
+        "sy": 6,
+        "wa": 0,
+        "id": 73,
+        "us": 20
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.1,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 8358178,
+        "rxbytes": 17310618
+      }
+    }
+  },
+  {
+    "id": "05d57aa4",
+    "name": "worker-IotasLabyrinth-d8fb0605",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754907642598,
+    "mt": 1754907642598,
+    "alivets": 1754907642598,
+    "status": 1,
+    "running": true,
+    "starttime": 1754907636539,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754907636539,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 5000,
+    "health": {
+      "diskrw": {
+        "reads": 579496,
+        "writes": 279590
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 70
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "< 1 hour"
+      },
+      "cpu": {
+        "sy": 10,
+        "wa": 0,
+        "id": 74,
+        "us": 15
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.1,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 8359295,
+        "rxbytes": 17315018
+      }
+    }
+  }
+]

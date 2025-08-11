@@ -1,0 +1,1784 @@
+2025-08-05 14:02:07,264 - INFO - Starting health monitoring with 10s interval
+2025-08-05 14:02:07,264 - INFO - Health monitor started with 10s interval, saving to health_data.json (max 2 captures)
+2025-08-05 14:02:07,264 - INFO - Will automatically stop after 2 captures
+2025-08-05 14:02:09,369 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:02:09,370 - INFO - Successfully saved 1 records to health_data.json
+2025-08-05 14:02:09,370 - INFO - Health data collected and saved to health_data.json (capture 1)
+2025-08-05 14:02:21,464 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:02:21,466 - INFO - Successfully saved 2 records to health_data.json
+2025-08-05 14:02:21,466 - INFO - Health data collected and saved to health_data.json (capture 2)
+2025-08-05 14:02:21,467 - INFO - Reached maximum captures (2). Stopping monitor...
+2025-08-05 14:02:21,637 - INFO - Starting health monitoring with 10s interval
+2025-08-05 14:02:21,637 - INFO - Health monitor started with 10s interval, saving to health_data.json
+2025-08-05 14:02:23,706 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:02:23,708 - INFO - Successfully saved 3 records to health_data.json
+2025-08-05 14:02:23,710 - INFO - Health data collected and saved to health_data.json (capture 1)
+2025-08-05 14:02:35,790 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:02:35,794 - INFO - Successfully saved 4 records to health_data.json
+2025-08-05 14:02:35,794 - INFO - Health data collected and saved to health_data.json (capture 2)
+2025-08-05 14:02:47,860 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:02:47,863 - INFO - Successfully saved 5 records to health_data.json
+2025-08-05 14:02:47,863 - INFO - Health data collected and saved to health_data.json (capture 3)
+2025-08-05 14:02:59,941 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:02:59,944 - INFO - Successfully saved 6 records to health_data.json
+2025-08-05 14:02:59,945 - INFO - Health data collected and saved to health_data.json (capture 4)
+2025-08-05 14:03:12,044 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:03:12,048 - INFO - Successfully saved 7 records to health_data.json
+2025-08-05 14:03:12,049 - INFO - Health data collected and saved to health_data.json (capture 5)
+2025-08-05 14:03:24,072 - INFO - Stopping health monitor...
+2025-08-05 14:03:24,072 - INFO - Waiting for monitoring thread to finish...
+2025-08-05 14:03:24,139 - INFO - Attempting to save health data to health_data.json
+2025-08-05 14:03:24,143 - INFO - Successfully saved 8 records to health_data.json
+2025-08-05 14:03:24,144 - INFO - Health data collected and saved to health_data.json (capture 6)
+2025-08-05 14:03:24,144 - INFO - Health monitor stopped successfully
+2025-08-06 13:19:39,712 - INFO - Starting health monitoring with 10s interval
+2025-08-06 13:19:39,712 - INFO - Health monitor started with 10s interval, saving to health_data.json (max 2 captures)
+2025-08-06 13:19:39,712 - INFO - Will automatically stop after 2 captures
+2025-08-06 13:19:41,817 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:19:41,833 - INFO - Successfully saved 9 records to health_data.json
+2025-08-06 13:19:41,833 - INFO - Health data collected and saved to health_data.json (capture 1)
+2025-08-06 13:19:53,941 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:19:53,950 - INFO - Successfully saved 10 records to health_data.json
+2025-08-06 13:19:53,950 - INFO - Health data collected and saved to health_data.json (capture 2)
+2025-08-06 13:19:53,950 - INFO - Reached maximum captures (2). Stopping monitor...
+2025-08-06 13:19:55,116 - INFO - Starting health monitoring with 10s interval
+2025-08-06 13:19:55,116 - INFO - Health monitor started with 10s interval, saving to health_data.json
+2025-08-06 13:19:57,209 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:19:57,210 - INFO - Successfully saved 11 records to health_data.json
+2025-08-06 13:19:57,210 - INFO - Health data collected and saved to health_data.json (capture 1)
+2025-08-06 13:20:09,302 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:20:09,311 - INFO - Successfully saved 12 records to health_data.json
+2025-08-06 13:20:09,311 - INFO - Health data collected and saved to health_data.json (capture 2)
+2025-08-06 13:20:21,418 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:20:21,423 - INFO - Successfully saved 13 records to health_data.json
+2025-08-06 13:20:21,423 - INFO - Health data collected and saved to health_data.json (capture 3)
+2025-08-06 13:20:33,512 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:20:33,517 - INFO - Successfully saved 14 records to health_data.json
+2025-08-06 13:20:33,517 - INFO - Health data collected and saved to health_data.json (capture 4)
+2025-08-06 13:20:45,641 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:20:45,655 - INFO - Successfully saved 15 records to health_data.json
+2025-08-06 13:20:45,655 - INFO - Health data collected and saved to health_data.json (capture 5)
+2025-08-06 13:20:57,764 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:20:57,774 - INFO - Successfully saved 16 records to health_data.json
+2025-08-06 13:20:57,774 - INFO - Health data collected and saved to health_data.json (capture 6)
+2025-08-06 13:21:09,869 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:21:09,880 - INFO - Successfully saved 17 records to health_data.json
+2025-08-06 13:21:09,881 - INFO - Health data collected and saved to health_data.json (capture 7)
+2025-08-06 13:21:21,964 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:21:21,973 - INFO - Successfully saved 18 records to health_data.json
+2025-08-06 13:21:21,974 - INFO - Health data collected and saved to health_data.json (capture 8)
+2025-08-06 13:21:34,043 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:21:34,051 - INFO - Successfully saved 19 records to health_data.json
+2025-08-06 13:21:34,051 - INFO - Health data collected and saved to health_data.json (capture 9)
+2025-08-06 13:21:46,126 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:21:46,136 - INFO - Successfully saved 20 records to health_data.json
+2025-08-06 13:21:46,136 - INFO - Health data collected and saved to health_data.json (capture 10)
+2025-08-06 13:21:58,210 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:21:58,217 - INFO - Successfully saved 21 records to health_data.json
+2025-08-06 13:21:58,217 - INFO - Health data collected and saved to health_data.json (capture 11)
+2025-08-06 13:22:10,287 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:22:10,295 - INFO - Successfully saved 22 records to health_data.json
+2025-08-06 13:22:10,295 - INFO - Health data collected and saved to health_data.json (capture 12)
+2025-08-06 13:22:22,369 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:22:22,375 - INFO - Successfully saved 23 records to health_data.json
+2025-08-06 13:22:22,375 - INFO - Health data collected and saved to health_data.json (capture 13)
+2025-08-06 13:22:34,463 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:22:34,468 - INFO - Successfully saved 24 records to health_data.json
+2025-08-06 13:22:34,468 - INFO - Health data collected and saved to health_data.json (capture 14)
+2025-08-06 13:22:46,552 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:22:46,559 - INFO - Successfully saved 25 records to health_data.json
+2025-08-06 13:22:46,559 - INFO - Health data collected and saved to health_data.json (capture 15)
+2025-08-06 13:22:58,633 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:22:58,640 - INFO - Successfully saved 26 records to health_data.json
+2025-08-06 13:22:58,640 - INFO - Health data collected and saved to health_data.json (capture 16)
+2025-08-06 13:23:10,718 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:23:10,726 - INFO - Successfully saved 27 records to health_data.json
+2025-08-06 13:23:10,727 - INFO - Health data collected and saved to health_data.json (capture 17)
+2025-08-06 13:23:22,802 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:23:22,808 - INFO - Successfully saved 28 records to health_data.json
+2025-08-06 13:23:22,809 - INFO - Health data collected and saved to health_data.json (capture 18)
+2025-08-06 13:23:34,880 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:23:34,890 - INFO - Successfully saved 29 records to health_data.json
+2025-08-06 13:23:34,891 - INFO - Health data collected and saved to health_data.json (capture 19)
+2025-08-06 13:23:46,978 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:23:46,988 - INFO - Successfully saved 30 records to health_data.json
+2025-08-06 13:23:46,988 - INFO - Health data collected and saved to health_data.json (capture 20)
+2025-08-06 13:23:59,072 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:23:59,090 - INFO - Successfully saved 31 records to health_data.json
+2025-08-06 13:23:59,091 - INFO - Health data collected and saved to health_data.json (capture 21)
+2025-08-06 13:24:11,164 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:24:11,174 - INFO - Successfully saved 32 records to health_data.json
+2025-08-06 13:24:11,175 - INFO - Health data collected and saved to health_data.json (capture 22)
+2025-08-06 13:24:23,246 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:24:23,257 - INFO - Successfully saved 33 records to health_data.json
+2025-08-06 13:24:23,257 - INFO - Health data collected and saved to health_data.json (capture 23)
+2025-08-06 13:24:35,334 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:24:35,344 - INFO - Successfully saved 34 records to health_data.json
+2025-08-06 13:24:35,345 - INFO - Health data collected and saved to health_data.json (capture 24)
+2025-08-06 13:24:47,488 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:24:47,502 - INFO - Successfully saved 35 records to health_data.json
+2025-08-06 13:24:47,503 - INFO - Health data collected and saved to health_data.json (capture 25)
+2025-08-06 13:24:59,582 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:24:59,589 - INFO - Successfully saved 36 records to health_data.json
+2025-08-06 13:24:59,590 - INFO - Health data collected and saved to health_data.json (capture 26)
+2025-08-06 13:25:11,678 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:25:11,691 - INFO - Successfully saved 37 records to health_data.json
+2025-08-06 13:25:11,691 - INFO - Health data collected and saved to health_data.json (capture 27)
+2025-08-06 13:25:23,765 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:25:23,775 - INFO - Successfully saved 38 records to health_data.json
+2025-08-06 13:25:23,775 - INFO - Health data collected and saved to health_data.json (capture 28)
+2025-08-06 13:25:35,846 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:25:35,862 - INFO - Successfully saved 39 records to health_data.json
+2025-08-06 13:25:35,862 - INFO - Health data collected and saved to health_data.json (capture 29)
+2025-08-06 13:25:47,943 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:25:47,955 - INFO - Successfully saved 40 records to health_data.json
+2025-08-06 13:25:47,955 - INFO - Health data collected and saved to health_data.json (capture 30)
+2025-08-06 13:26:00,045 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:26:00,061 - INFO - Successfully saved 41 records to health_data.json
+2025-08-06 13:26:00,061 - INFO - Health data collected and saved to health_data.json (capture 31)
+2025-08-06 13:26:12,153 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:26:12,166 - INFO - Successfully saved 42 records to health_data.json
+2025-08-06 13:26:12,166 - INFO - Health data collected and saved to health_data.json (capture 32)
+2025-08-06 13:26:24,268 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:26:24,285 - INFO - Successfully saved 43 records to health_data.json
+2025-08-06 13:26:24,286 - INFO - Health data collected and saved to health_data.json (capture 33)
+2025-08-06 13:26:36,372 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:26:36,388 - INFO - Successfully saved 44 records to health_data.json
+2025-08-06 13:26:36,388 - INFO - Health data collected and saved to health_data.json (capture 34)
+2025-08-06 13:26:48,480 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:26:48,494 - INFO - Successfully saved 45 records to health_data.json
+2025-08-06 13:26:48,494 - INFO - Health data collected and saved to health_data.json (capture 35)
+2025-08-06 13:27:00,607 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:27:00,622 - INFO - Successfully saved 46 records to health_data.json
+2025-08-06 13:27:00,622 - INFO - Health data collected and saved to health_data.json (capture 36)
+2025-08-06 13:27:12,703 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:27:12,718 - INFO - Successfully saved 47 records to health_data.json
+2025-08-06 13:27:12,718 - INFO - Health data collected and saved to health_data.json (capture 37)
+2025-08-06 13:27:24,798 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:27:24,817 - INFO - Successfully saved 48 records to health_data.json
+2025-08-06 13:27:24,818 - INFO - Health data collected and saved to health_data.json (capture 38)
+2025-08-06 13:27:36,917 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:27:36,935 - INFO - Successfully saved 49 records to health_data.json
+2025-08-06 13:27:36,936 - INFO - Health data collected and saved to health_data.json (capture 39)
+2025-08-06 13:27:49,026 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:27:49,040 - INFO - Successfully saved 50 records to health_data.json
+2025-08-06 13:27:49,040 - INFO - Health data collected and saved to health_data.json (capture 40)
+2025-08-06 13:28:01,141 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:28:01,157 - INFO - Successfully saved 51 records to health_data.json
+2025-08-06 13:28:01,157 - INFO - Health data collected and saved to health_data.json (capture 41)
+2025-08-06 13:28:13,231 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:28:13,252 - INFO - Successfully saved 52 records to health_data.json
+2025-08-06 13:28:13,252 - INFO - Health data collected and saved to health_data.json (capture 42)
+2025-08-06 13:28:25,360 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:28:25,385 - INFO - Successfully saved 53 records to health_data.json
+2025-08-06 13:28:25,385 - INFO - Health data collected and saved to health_data.json (capture 43)
+2025-08-06 13:28:37,486 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:28:37,504 - INFO - Successfully saved 54 records to health_data.json
+2025-08-06 13:28:37,505 - INFO - Health data collected and saved to health_data.json (capture 44)
+2025-08-06 13:28:49,622 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:28:49,649 - INFO - Successfully saved 55 records to health_data.json
+2025-08-06 13:28:49,649 - INFO - Health data collected and saved to health_data.json (capture 45)
+2025-08-06 13:29:01,742 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:29:01,759 - INFO - Successfully saved 56 records to health_data.json
+2025-08-06 13:29:01,760 - INFO - Health data collected and saved to health_data.json (capture 46)
+2025-08-06 13:29:13,867 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:29:13,887 - INFO - Successfully saved 57 records to health_data.json
+2025-08-06 13:29:13,888 - INFO - Health data collected and saved to health_data.json (capture 47)
+2025-08-06 13:29:25,977 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:29:25,993 - INFO - Successfully saved 58 records to health_data.json
+2025-08-06 13:29:25,993 - INFO - Health data collected and saved to health_data.json (capture 48)
+2025-08-06 13:29:38,097 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:29:38,120 - INFO - Successfully saved 59 records to health_data.json
+2025-08-06 13:29:38,120 - INFO - Health data collected and saved to health_data.json (capture 49)
+2025-08-06 13:29:50,204 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:29:50,222 - INFO - Successfully saved 60 records to health_data.json
+2025-08-06 13:29:50,222 - INFO - Health data collected and saved to health_data.json (capture 50)
+2025-08-06 13:30:02,315 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:30:02,347 - INFO - Successfully saved 61 records to health_data.json
+2025-08-06 13:30:02,348 - INFO - Health data collected and saved to health_data.json (capture 51)
+2025-08-06 13:30:14,447 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:30:14,462 - INFO - Successfully saved 62 records to health_data.json
+2025-08-06 13:30:14,462 - INFO - Health data collected and saved to health_data.json (capture 52)
+2025-08-06 13:30:26,549 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:30:26,568 - INFO - Successfully saved 63 records to health_data.json
+2025-08-06 13:30:26,569 - INFO - Health data collected and saved to health_data.json (capture 53)
+2025-08-06 13:30:38,704 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:30:38,727 - INFO - Successfully saved 64 records to health_data.json
+2025-08-06 13:30:38,727 - INFO - Health data collected and saved to health_data.json (capture 54)
+2025-08-06 13:30:50,815 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:30:50,835 - INFO - Successfully saved 65 records to health_data.json
+2025-08-06 13:30:50,836 - INFO - Health data collected and saved to health_data.json (capture 55)
+2025-08-06 13:31:02,942 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:31:02,957 - INFO - Successfully saved 66 records to health_data.json
+2025-08-06 13:31:02,957 - INFO - Health data collected and saved to health_data.json (capture 56)
+2025-08-06 13:31:15,068 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:31:15,087 - INFO - Successfully saved 67 records to health_data.json
+2025-08-06 13:31:15,087 - INFO - Health data collected and saved to health_data.json (capture 57)
+2025-08-06 13:31:27,184 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:31:27,207 - INFO - Successfully saved 68 records to health_data.json
+2025-08-06 13:31:27,208 - INFO - Health data collected and saved to health_data.json (capture 58)
+2025-08-06 13:31:39,342 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:31:39,369 - INFO - Successfully saved 69 records to health_data.json
+2025-08-06 13:31:39,369 - INFO - Health data collected and saved to health_data.json (capture 59)
+2025-08-06 13:31:51,466 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:31:51,486 - INFO - Successfully saved 70 records to health_data.json
+2025-08-06 13:31:51,486 - INFO - Health data collected and saved to health_data.json (capture 60)
+2025-08-06 13:32:03,591 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:32:03,628 - INFO - Successfully saved 71 records to health_data.json
+2025-08-06 13:32:03,632 - INFO - Health data collected and saved to health_data.json (capture 61)
+2025-08-06 13:32:15,741 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:32:15,761 - INFO - Successfully saved 72 records to health_data.json
+2025-08-06 13:32:15,761 - INFO - Health data collected and saved to health_data.json (capture 62)
+2025-08-06 13:32:27,856 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:32:27,879 - INFO - Successfully saved 73 records to health_data.json
+2025-08-06 13:32:27,880 - INFO - Health data collected and saved to health_data.json (capture 63)
+2025-08-06 13:32:39,980 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:32:40,000 - INFO - Successfully saved 74 records to health_data.json
+2025-08-06 13:32:40,001 - INFO - Health data collected and saved to health_data.json (capture 64)
+2025-08-06 13:32:52,097 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:32:52,118 - INFO - Successfully saved 75 records to health_data.json
+2025-08-06 13:32:52,118 - INFO - Health data collected and saved to health_data.json (capture 65)
+2025-08-06 13:33:04,245 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:33:04,270 - INFO - Successfully saved 76 records to health_data.json
+2025-08-06 13:33:04,270 - INFO - Health data collected and saved to health_data.json (capture 66)
+2025-08-06 13:33:16,377 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:33:16,397 - INFO - Successfully saved 77 records to health_data.json
+2025-08-06 13:33:16,398 - INFO - Health data collected and saved to health_data.json (capture 67)
+2025-08-06 13:33:28,482 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:33:28,505 - INFO - Successfully saved 78 records to health_data.json
+2025-08-06 13:33:28,506 - INFO - Health data collected and saved to health_data.json (capture 68)
+2025-08-06 13:33:40,614 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:33:40,637 - INFO - Successfully saved 79 records to health_data.json
+2025-08-06 13:33:40,637 - INFO - Health data collected and saved to health_data.json (capture 69)
+2025-08-06 13:33:52,747 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:33:52,774 - INFO - Successfully saved 80 records to health_data.json
+2025-08-06 13:33:52,776 - INFO - Health data collected and saved to health_data.json (capture 70)
+2025-08-06 13:34:04,858 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:34:04,888 - INFO - Successfully saved 81 records to health_data.json
+2025-08-06 13:34:04,889 - INFO - Health data collected and saved to health_data.json (capture 71)
+2025-08-06 13:34:16,975 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:34:16,998 - INFO - Successfully saved 82 records to health_data.json
+2025-08-06 13:34:16,998 - INFO - Health data collected and saved to health_data.json (capture 72)
+2025-08-06 13:34:29,165 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:34:29,195 - INFO - Successfully saved 83 records to health_data.json
+2025-08-06 13:34:29,195 - INFO - Health data collected and saved to health_data.json (capture 73)
+2025-08-06 13:34:41,314 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:34:41,344 - INFO - Successfully saved 84 records to health_data.json
+2025-08-06 13:34:41,344 - INFO - Health data collected and saved to health_data.json (capture 74)
+2025-08-06 13:34:53,452 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:34:53,475 - INFO - Successfully saved 85 records to health_data.json
+2025-08-06 13:34:53,476 - INFO - Health data collected and saved to health_data.json (capture 75)
+2025-08-06 13:35:05,577 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:35:05,603 - INFO - Successfully saved 86 records to health_data.json
+2025-08-06 13:35:05,604 - INFO - Health data collected and saved to health_data.json (capture 76)
+2025-08-06 13:35:17,687 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:35:17,709 - INFO - Successfully saved 87 records to health_data.json
+2025-08-06 13:35:17,710 - INFO - Health data collected and saved to health_data.json (capture 77)
+2025-08-06 13:35:29,806 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:35:29,837 - INFO - Successfully saved 88 records to health_data.json
+2025-08-06 13:35:29,838 - INFO - Health data collected and saved to health_data.json (capture 78)
+2025-08-06 13:35:41,945 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:35:41,974 - INFO - Successfully saved 89 records to health_data.json
+2025-08-06 13:35:41,975 - INFO - Health data collected and saved to health_data.json (capture 79)
+2025-08-06 13:35:54,111 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:35:54,151 - INFO - Successfully saved 90 records to health_data.json
+2025-08-06 13:35:54,152 - INFO - Health data collected and saved to health_data.json (capture 80)
+2025-08-06 13:36:06,236 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:36:06,270 - INFO - Successfully saved 91 records to health_data.json
+2025-08-06 13:36:06,271 - INFO - Health data collected and saved to health_data.json (capture 81)
+2025-08-06 13:36:18,367 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:36:18,401 - INFO - Successfully saved 92 records to health_data.json
+2025-08-06 13:36:18,402 - INFO - Health data collected and saved to health_data.json (capture 82)
+2025-08-06 13:36:30,490 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:36:30,510 - INFO - Successfully saved 93 records to health_data.json
+2025-08-06 13:36:30,511 - INFO - Health data collected and saved to health_data.json (capture 83)
+2025-08-06 13:36:42,612 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:36:42,646 - INFO - Successfully saved 94 records to health_data.json
+2025-08-06 13:36:42,647 - INFO - Health data collected and saved to health_data.json (capture 84)
+2025-08-06 13:36:54,762 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:36:54,804 - INFO - Successfully saved 95 records to health_data.json
+2025-08-06 13:36:54,804 - INFO - Health data collected and saved to health_data.json (capture 85)
+2025-08-06 13:37:06,895 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:37:06,919 - INFO - Successfully saved 96 records to health_data.json
+2025-08-06 13:37:06,921 - INFO - Health data collected and saved to health_data.json (capture 86)
+2025-08-06 13:37:19,007 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:37:19,033 - INFO - Successfully saved 97 records to health_data.json
+2025-08-06 13:37:19,033 - INFO - Health data collected and saved to health_data.json (capture 87)
+2025-08-06 13:37:31,155 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:37:31,183 - INFO - Successfully saved 98 records to health_data.json
+2025-08-06 13:37:31,184 - INFO - Health data collected and saved to health_data.json (capture 88)
+2025-08-06 13:37:43,280 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:37:43,317 - INFO - Successfully saved 99 records to health_data.json
+2025-08-06 13:37:43,318 - INFO - Health data collected and saved to health_data.json (capture 89)
+2025-08-06 13:37:55,402 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:37:55,436 - INFO - Successfully saved 100 records to health_data.json
+2025-08-06 13:37:55,437 - INFO - Health data collected and saved to health_data.json (capture 90)
+2025-08-06 13:38:07,545 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:38:07,577 - INFO - Successfully saved 101 records to health_data.json
+2025-08-06 13:38:07,577 - INFO - Health data collected and saved to health_data.json (capture 91)
+2025-08-06 13:38:19,666 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:38:19,702 - INFO - Successfully saved 102 records to health_data.json
+2025-08-06 13:38:19,702 - INFO - Health data collected and saved to health_data.json (capture 92)
+2025-08-06 13:38:31,799 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:38:31,829 - INFO - Successfully saved 103 records to health_data.json
+2025-08-06 13:38:31,830 - INFO - Health data collected and saved to health_data.json (capture 93)
+2025-08-06 13:38:43,932 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:38:43,965 - INFO - Successfully saved 104 records to health_data.json
+2025-08-06 13:38:43,966 - INFO - Health data collected and saved to health_data.json (capture 94)
+2025-08-06 13:38:56,051 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:38:56,080 - INFO - Successfully saved 105 records to health_data.json
+2025-08-06 13:38:56,081 - INFO - Health data collected and saved to health_data.json (capture 95)
+2025-08-06 13:39:08,180 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:39:08,212 - INFO - Successfully saved 106 records to health_data.json
+2025-08-06 13:39:08,213 - INFO - Health data collected and saved to health_data.json (capture 96)
+2025-08-06 13:39:20,306 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:39:20,346 - INFO - Successfully saved 107 records to health_data.json
+2025-08-06 13:39:20,347 - INFO - Health data collected and saved to health_data.json (capture 97)
+2025-08-06 13:39:32,438 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:39:32,471 - INFO - Successfully saved 108 records to health_data.json
+2025-08-06 13:39:32,471 - INFO - Health data collected and saved to health_data.json (capture 98)
+2025-08-06 13:39:44,543 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:39:44,581 - INFO - Successfully saved 109 records to health_data.json
+2025-08-06 13:39:44,581 - INFO - Health data collected and saved to health_data.json (capture 99)
+2025-08-06 13:39:56,687 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:39:56,716 - INFO - Successfully saved 110 records to health_data.json
+2025-08-06 13:39:56,717 - INFO - Health data collected and saved to health_data.json (capture 100)
+2025-08-06 13:40:08,913 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:40:08,960 - INFO - Successfully saved 111 records to health_data.json
+2025-08-06 13:40:08,962 - INFO - Health data collected and saved to health_data.json (capture 101)
+2025-08-06 13:40:21,049 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:40:21,082 - INFO - Successfully saved 112 records to health_data.json
+2025-08-06 13:40:21,083 - INFO - Health data collected and saved to health_data.json (capture 102)
+2025-08-06 13:40:33,186 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:40:33,214 - INFO - Successfully saved 113 records to health_data.json
+2025-08-06 13:40:33,215 - INFO - Health data collected and saved to health_data.json (capture 103)
+2025-08-06 13:40:45,304 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:40:45,357 - INFO - Successfully saved 114 records to health_data.json
+2025-08-06 13:40:45,357 - INFO - Health data collected and saved to health_data.json (capture 104)
+2025-08-06 13:40:57,454 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:40:57,490 - INFO - Successfully saved 115 records to health_data.json
+2025-08-06 13:40:57,491 - INFO - Health data collected and saved to health_data.json (capture 105)
+2025-08-06 13:41:09,588 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:41:09,618 - INFO - Successfully saved 116 records to health_data.json
+2025-08-06 13:41:09,618 - INFO - Health data collected and saved to health_data.json (capture 106)
+2025-08-06 13:41:21,723 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:41:21,762 - INFO - Successfully saved 117 records to health_data.json
+2025-08-06 13:41:21,763 - INFO - Health data collected and saved to health_data.json (capture 107)
+2025-08-06 13:41:33,850 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:41:33,888 - INFO - Successfully saved 118 records to health_data.json
+2025-08-06 13:41:33,889 - INFO - Health data collected and saved to health_data.json (capture 108)
+2025-08-06 13:41:46,006 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:41:46,039 - INFO - Successfully saved 119 records to health_data.json
+2025-08-06 13:41:46,039 - INFO - Health data collected and saved to health_data.json (capture 109)
+2025-08-06 13:41:58,137 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:41:58,198 - INFO - Successfully saved 120 records to health_data.json
+2025-08-06 13:41:58,200 - INFO - Health data collected and saved to health_data.json (capture 110)
+2025-08-06 13:42:10,296 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:42:10,334 - INFO - Successfully saved 121 records to health_data.json
+2025-08-06 13:42:10,335 - INFO - Health data collected and saved to health_data.json (capture 111)
+2025-08-06 13:42:22,438 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:42:22,472 - INFO - Successfully saved 122 records to health_data.json
+2025-08-06 13:42:22,473 - INFO - Health data collected and saved to health_data.json (capture 112)
+2025-08-06 13:42:34,586 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:42:34,625 - INFO - Successfully saved 123 records to health_data.json
+2025-08-06 13:42:34,626 - INFO - Health data collected and saved to health_data.json (capture 113)
+2025-08-06 13:42:46,722 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:42:46,764 - INFO - Successfully saved 124 records to health_data.json
+2025-08-06 13:42:46,765 - INFO - Health data collected and saved to health_data.json (capture 114)
+2025-08-06 13:42:58,899 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:42:58,937 - INFO - Successfully saved 125 records to health_data.json
+2025-08-06 13:42:58,938 - INFO - Health data collected and saved to health_data.json (capture 115)
+2025-08-06 13:43:11,035 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:43:11,072 - INFO - Successfully saved 126 records to health_data.json
+2025-08-06 13:43:11,073 - INFO - Health data collected and saved to health_data.json (capture 116)
+2025-08-06 13:43:23,174 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:43:23,208 - INFO - Successfully saved 127 records to health_data.json
+2025-08-06 13:43:23,209 - INFO - Health data collected and saved to health_data.json (capture 117)
+2025-08-06 13:43:35,313 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:43:35,354 - INFO - Successfully saved 128 records to health_data.json
+2025-08-06 13:43:35,355 - INFO - Health data collected and saved to health_data.json (capture 118)
+2025-08-06 13:43:47,450 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:43:47,492 - INFO - Successfully saved 129 records to health_data.json
+2025-08-06 13:43:47,494 - INFO - Health data collected and saved to health_data.json (capture 119)
+2025-08-06 13:43:59,599 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:43:59,635 - INFO - Successfully saved 130 records to health_data.json
+2025-08-06 13:43:59,635 - INFO - Health data collected and saved to health_data.json (capture 120)
+2025-08-06 13:44:11,734 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:44:11,774 - INFO - Successfully saved 131 records to health_data.json
+2025-08-06 13:44:11,774 - INFO - Health data collected and saved to health_data.json (capture 121)
+2025-08-06 13:44:23,909 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:44:23,949 - INFO - Successfully saved 132 records to health_data.json
+2025-08-06 13:44:23,950 - INFO - Health data collected and saved to health_data.json (capture 122)
+2025-08-06 13:44:36,035 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:44:36,087 - INFO - Successfully saved 133 records to health_data.json
+2025-08-06 13:44:36,087 - INFO - Health data collected and saved to health_data.json (capture 123)
+2025-08-06 13:44:48,186 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:44:48,252 - INFO - Successfully saved 134 records to health_data.json
+2025-08-06 13:44:48,253 - INFO - Health data collected and saved to health_data.json (capture 124)
+2025-08-06 13:45:00,365 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:45:00,403 - INFO - Successfully saved 135 records to health_data.json
+2025-08-06 13:45:00,404 - INFO - Health data collected and saved to health_data.json (capture 125)
+2025-08-06 13:45:12,478 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:45:12,520 - INFO - Successfully saved 136 records to health_data.json
+2025-08-06 13:45:12,520 - INFO - Health data collected and saved to health_data.json (capture 126)
+2025-08-06 13:45:24,627 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:45:24,664 - INFO - Successfully saved 137 records to health_data.json
+2025-08-06 13:45:24,665 - INFO - Health data collected and saved to health_data.json (capture 127)
+2025-08-06 13:45:36,763 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:45:36,805 - INFO - Successfully saved 138 records to health_data.json
+2025-08-06 13:45:36,806 - INFO - Health data collected and saved to health_data.json (capture 128)
+2025-08-06 13:45:48,872 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:45:48,914 - INFO - Successfully saved 139 records to health_data.json
+2025-08-06 13:45:48,915 - INFO - Health data collected and saved to health_data.json (capture 129)
+2025-08-06 13:46:01,002 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:46:01,046 - INFO - Successfully saved 140 records to health_data.json
+2025-08-06 13:46:01,047 - INFO - Health data collected and saved to health_data.json (capture 130)
+2025-08-06 13:46:13,165 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:46:13,232 - INFO - Successfully saved 141 records to health_data.json
+2025-08-06 13:46:13,232 - INFO - Health data collected and saved to health_data.json (capture 131)
+2025-08-06 13:46:25,336 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:46:25,380 - INFO - Successfully saved 142 records to health_data.json
+2025-08-06 13:46:25,380 - INFO - Health data collected and saved to health_data.json (capture 132)
+2025-08-06 13:46:37,509 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:46:37,575 - INFO - Successfully saved 143 records to health_data.json
+2025-08-06 13:46:37,576 - INFO - Health data collected and saved to health_data.json (capture 133)
+2025-08-06 13:46:49,670 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:46:49,703 - INFO - Successfully saved 144 records to health_data.json
+2025-08-06 13:46:49,704 - INFO - Health data collected and saved to health_data.json (capture 134)
+2025-08-06 13:47:01,809 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:47:01,848 - INFO - Successfully saved 145 records to health_data.json
+2025-08-06 13:47:01,849 - INFO - Health data collected and saved to health_data.json (capture 135)
+2025-08-06 13:47:13,942 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:47:13,983 - INFO - Successfully saved 146 records to health_data.json
+2025-08-06 13:47:13,983 - INFO - Health data collected and saved to health_data.json (capture 136)
+2025-08-06 13:47:26,083 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:47:26,124 - INFO - Successfully saved 147 records to health_data.json
+2025-08-06 13:47:26,125 - INFO - Health data collected and saved to health_data.json (capture 137)
+2025-08-06 13:47:38,229 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:47:38,274 - INFO - Successfully saved 148 records to health_data.json
+2025-08-06 13:47:38,275 - INFO - Health data collected and saved to health_data.json (capture 138)
+2025-08-06 13:47:50,365 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:47:50,417 - INFO - Successfully saved 149 records to health_data.json
+2025-08-06 13:47:50,417 - INFO - Health data collected and saved to health_data.json (capture 139)
+2025-08-06 13:48:02,505 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:48:02,550 - INFO - Successfully saved 150 records to health_data.json
+2025-08-06 13:48:02,551 - INFO - Health data collected and saved to health_data.json (capture 140)
+2025-08-06 13:48:14,647 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:48:14,695 - INFO - Successfully saved 151 records to health_data.json
+2025-08-06 13:48:14,696 - INFO - Health data collected and saved to health_data.json (capture 141)
+2025-08-06 13:48:26,783 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:48:26,832 - INFO - Successfully saved 152 records to health_data.json
+2025-08-06 13:48:26,833 - INFO - Health data collected and saved to health_data.json (capture 142)
+2025-08-06 13:48:38,928 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:48:38,968 - INFO - Successfully saved 153 records to health_data.json
+2025-08-06 13:48:38,969 - INFO - Health data collected and saved to health_data.json (capture 143)
+2025-08-06 13:48:51,055 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:48:51,099 - INFO - Successfully saved 154 records to health_data.json
+2025-08-06 13:48:51,100 - INFO - Health data collected and saved to health_data.json (capture 144)
+2025-08-06 13:49:03,199 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:49:03,249 - INFO - Successfully saved 155 records to health_data.json
+2025-08-06 13:49:03,250 - INFO - Health data collected and saved to health_data.json (capture 145)
+2025-08-06 13:49:15,355 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:49:15,408 - INFO - Successfully saved 156 records to health_data.json
+2025-08-06 13:49:15,408 - INFO - Health data collected and saved to health_data.json (capture 146)
+2025-08-06 13:49:27,501 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:49:27,550 - INFO - Successfully saved 157 records to health_data.json
+2025-08-06 13:49:27,551 - INFO - Health data collected and saved to health_data.json (capture 147)
+2025-08-06 13:49:39,632 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:49:39,678 - INFO - Successfully saved 158 records to health_data.json
+2025-08-06 13:49:39,679 - INFO - Health data collected and saved to health_data.json (capture 148)
+2025-08-06 13:49:51,785 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:49:51,829 - INFO - Successfully saved 159 records to health_data.json
+2025-08-06 13:49:51,830 - INFO - Health data collected and saved to health_data.json (capture 149)
+2025-08-06 13:50:03,936 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:50:03,985 - INFO - Successfully saved 160 records to health_data.json
+2025-08-06 13:50:03,986 - INFO - Health data collected and saved to health_data.json (capture 150)
+2025-08-06 13:50:16,090 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:50:16,163 - INFO - Successfully saved 161 records to health_data.json
+2025-08-06 13:50:16,164 - INFO - Health data collected and saved to health_data.json (capture 151)
+2025-08-06 13:50:28,259 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:50:28,305 - INFO - Successfully saved 162 records to health_data.json
+2025-08-06 13:50:28,306 - INFO - Health data collected and saved to health_data.json (capture 152)
+2025-08-06 13:50:40,422 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:50:40,467 - INFO - Successfully saved 163 records to health_data.json
+2025-08-06 13:50:40,467 - INFO - Health data collected and saved to health_data.json (capture 153)
+2025-08-06 13:50:52,551 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:50:52,592 - INFO - Successfully saved 164 records to health_data.json
+2025-08-06 13:50:52,593 - INFO - Health data collected and saved to health_data.json (capture 154)
+2025-08-06 13:51:04,674 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:51:04,730 - INFO - Successfully saved 165 records to health_data.json
+2025-08-06 13:51:04,731 - INFO - Health data collected and saved to health_data.json (capture 155)
+2025-08-06 13:51:16,819 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:51:16,865 - INFO - Successfully saved 166 records to health_data.json
+2025-08-06 13:51:16,866 - INFO - Health data collected and saved to health_data.json (capture 156)
+2025-08-06 13:51:28,956 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:51:29,005 - INFO - Successfully saved 167 records to health_data.json
+2025-08-06 13:51:29,006 - INFO - Health data collected and saved to health_data.json (capture 157)
+2025-08-06 13:51:41,127 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:51:41,177 - INFO - Successfully saved 168 records to health_data.json
+2025-08-06 13:51:41,177 - INFO - Health data collected and saved to health_data.json (capture 158)
+2025-08-06 13:51:53,265 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:51:53,310 - INFO - Successfully saved 169 records to health_data.json
+2025-08-06 13:51:53,311 - INFO - Health data collected and saved to health_data.json (capture 159)
+2025-08-06 13:52:05,403 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:52:05,448 - INFO - Successfully saved 170 records to health_data.json
+2025-08-06 13:52:05,448 - INFO - Health data collected and saved to health_data.json (capture 160)
+2025-08-06 13:52:17,540 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:52:17,592 - INFO - Successfully saved 171 records to health_data.json
+2025-08-06 13:52:17,593 - INFO - Health data collected and saved to health_data.json (capture 161)
+2025-08-06 13:52:29,728 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:52:29,787 - INFO - Successfully saved 172 records to health_data.json
+2025-08-06 13:52:29,787 - INFO - Health data collected and saved to health_data.json (capture 162)
+2025-08-06 13:52:41,893 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:52:41,942 - INFO - Successfully saved 173 records to health_data.json
+2025-08-06 13:52:41,944 - INFO - Health data collected and saved to health_data.json (capture 163)
+2025-08-06 13:52:54,034 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:52:54,098 - INFO - Successfully saved 174 records to health_data.json
+2025-08-06 13:52:54,099 - INFO - Health data collected and saved to health_data.json (capture 164)
+2025-08-06 13:53:06,193 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:53:06,244 - INFO - Successfully saved 175 records to health_data.json
+2025-08-06 13:53:06,246 - INFO - Health data collected and saved to health_data.json (capture 165)
+2025-08-06 13:53:18,339 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:53:18,390 - INFO - Successfully saved 176 records to health_data.json
+2025-08-06 13:53:18,391 - INFO - Health data collected and saved to health_data.json (capture 166)
+2025-08-06 13:53:30,461 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:53:30,516 - INFO - Successfully saved 177 records to health_data.json
+2025-08-06 13:53:30,516 - INFO - Health data collected and saved to health_data.json (capture 167)
+2025-08-06 13:53:42,630 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:53:42,685 - INFO - Successfully saved 178 records to health_data.json
+2025-08-06 13:53:42,685 - INFO - Health data collected and saved to health_data.json (capture 168)
+2025-08-06 13:53:54,775 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:53:54,844 - INFO - Successfully saved 179 records to health_data.json
+2025-08-06 13:53:54,845 - INFO - Health data collected and saved to health_data.json (capture 169)
+2025-08-06 13:54:06,939 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:54:07,023 - INFO - Successfully saved 180 records to health_data.json
+2025-08-06 13:54:07,024 - INFO - Health data collected and saved to health_data.json (capture 170)
+2025-08-06 13:54:19,120 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:54:19,179 - INFO - Successfully saved 181 records to health_data.json
+2025-08-06 13:54:19,180 - INFO - Health data collected and saved to health_data.json (capture 171)
+2025-08-06 13:54:31,308 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:54:31,351 - INFO - Successfully saved 182 records to health_data.json
+2025-08-06 13:54:31,352 - INFO - Health data collected and saved to health_data.json (capture 172)
+2025-08-06 13:54:43,442 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:54:43,503 - INFO - Successfully saved 183 records to health_data.json
+2025-08-06 13:54:43,504 - INFO - Health data collected and saved to health_data.json (capture 173)
+2025-08-06 13:54:55,578 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:54:55,626 - INFO - Successfully saved 184 records to health_data.json
+2025-08-06 13:54:55,627 - INFO - Health data collected and saved to health_data.json (capture 174)
+2025-08-06 13:55:07,721 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:55:07,780 - INFO - Successfully saved 185 records to health_data.json
+2025-08-06 13:55:07,781 - INFO - Health data collected and saved to health_data.json (capture 175)
+2025-08-06 13:55:19,872 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:55:19,925 - INFO - Successfully saved 186 records to health_data.json
+2025-08-06 13:55:19,926 - INFO - Health data collected and saved to health_data.json (capture 176)
+2025-08-06 13:55:32,020 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:55:32,081 - INFO - Successfully saved 187 records to health_data.json
+2025-08-06 13:55:32,082 - INFO - Health data collected and saved to health_data.json (capture 177)
+2025-08-06 13:55:44,165 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:55:44,239 - INFO - Successfully saved 188 records to health_data.json
+2025-08-06 13:55:44,240 - INFO - Health data collected and saved to health_data.json (capture 178)
+2025-08-06 13:55:56,333 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:55:56,385 - INFO - Successfully saved 189 records to health_data.json
+2025-08-06 13:55:56,387 - INFO - Health data collected and saved to health_data.json (capture 179)
+2025-08-06 13:56:08,500 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:56:08,560 - INFO - Successfully saved 190 records to health_data.json
+2025-08-06 13:56:08,561 - INFO - Health data collected and saved to health_data.json (capture 180)
+2025-08-06 13:56:20,647 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:56:20,709 - INFO - Successfully saved 191 records to health_data.json
+2025-08-06 13:56:20,710 - INFO - Health data collected and saved to health_data.json (capture 181)
+2025-08-06 13:56:32,816 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:56:32,878 - INFO - Successfully saved 192 records to health_data.json
+2025-08-06 13:56:32,879 - INFO - Health data collected and saved to health_data.json (capture 182)
+2025-08-06 13:56:44,973 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:56:45,029 - INFO - Successfully saved 193 records to health_data.json
+2025-08-06 13:56:45,030 - INFO - Health data collected and saved to health_data.json (capture 183)
+2025-08-06 13:56:57,138 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:56:57,200 - INFO - Successfully saved 194 records to health_data.json
+2025-08-06 13:56:57,202 - INFO - Health data collected and saved to health_data.json (capture 184)
+2025-08-06 13:57:09,318 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:57:09,377 - INFO - Successfully saved 195 records to health_data.json
+2025-08-06 13:57:09,379 - INFO - Health data collected and saved to health_data.json (capture 185)
+2025-08-06 13:57:21,458 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:57:21,517 - INFO - Successfully saved 196 records to health_data.json
+2025-08-06 13:57:21,518 - INFO - Health data collected and saved to health_data.json (capture 186)
+2025-08-06 13:57:33,615 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:57:33,678 - INFO - Successfully saved 197 records to health_data.json
+2025-08-06 13:57:33,679 - INFO - Health data collected and saved to health_data.json (capture 187)
+2025-08-06 13:57:45,760 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:57:45,833 - INFO - Successfully saved 198 records to health_data.json
+2025-08-06 13:57:45,834 - INFO - Health data collected and saved to health_data.json (capture 188)
+2025-08-06 13:57:57,931 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:57:57,988 - INFO - Successfully saved 199 records to health_data.json
+2025-08-06 13:57:57,989 - INFO - Health data collected and saved to health_data.json (capture 189)
+2025-08-06 13:58:10,079 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:58:10,139 - INFO - Successfully saved 200 records to health_data.json
+2025-08-06 13:58:10,140 - INFO - Health data collected and saved to health_data.json (capture 190)
+2025-08-06 13:58:22,227 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:58:22,280 - INFO - Successfully saved 201 records to health_data.json
+2025-08-06 13:58:22,281 - INFO - Health data collected and saved to health_data.json (capture 191)
+2025-08-06 13:58:34,378 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:58:34,442 - INFO - Successfully saved 202 records to health_data.json
+2025-08-06 13:58:34,444 - INFO - Health data collected and saved to health_data.json (capture 192)
+2025-08-06 13:58:46,536 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:58:46,604 - INFO - Successfully saved 203 records to health_data.json
+2025-08-06 13:58:46,604 - INFO - Health data collected and saved to health_data.json (capture 193)
+2025-08-06 13:58:58,686 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:58:58,744 - INFO - Successfully saved 204 records to health_data.json
+2025-08-06 13:58:58,744 - INFO - Health data collected and saved to health_data.json (capture 194)
+2025-08-06 13:59:10,828 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:59:10,916 - INFO - Successfully saved 205 records to health_data.json
+2025-08-06 13:59:10,917 - INFO - Health data collected and saved to health_data.json (capture 195)
+2025-08-06 13:59:23,023 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:59:23,103 - INFO - Successfully saved 206 records to health_data.json
+2025-08-06 13:59:23,104 - INFO - Health data collected and saved to health_data.json (capture 196)
+2025-08-06 13:59:35,204 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:59:35,280 - INFO - Successfully saved 207 records to health_data.json
+2025-08-06 13:59:35,282 - INFO - Health data collected and saved to health_data.json (capture 197)
+2025-08-06 13:59:47,368 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:59:47,445 - INFO - Successfully saved 208 records to health_data.json
+2025-08-06 13:59:47,452 - INFO - Health data collected and saved to health_data.json (capture 198)
+2025-08-06 13:59:59,548 - INFO - Attempting to save health data to health_data.json
+2025-08-06 13:59:59,615 - INFO - Successfully saved 209 records to health_data.json
+2025-08-06 13:59:59,617 - INFO - Health data collected and saved to health_data.json (capture 199)
+2025-08-06 14:00:11,718 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:00:11,796 - INFO - Successfully saved 210 records to health_data.json
+2025-08-06 14:00:11,797 - INFO - Health data collected and saved to health_data.json (capture 200)
+2025-08-06 14:00:23,912 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:00:23,982 - INFO - Successfully saved 211 records to health_data.json
+2025-08-06 14:00:23,983 - INFO - Health data collected and saved to health_data.json (capture 201)
+2025-08-06 14:00:36,074 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:00:36,138 - INFO - Successfully saved 212 records to health_data.json
+2025-08-06 14:00:36,139 - INFO - Health data collected and saved to health_data.json (capture 202)
+2025-08-06 14:00:48,225 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:00:48,297 - INFO - Successfully saved 213 records to health_data.json
+2025-08-06 14:00:48,297 - INFO - Health data collected and saved to health_data.json (capture 203)
+2025-08-06 14:01:00,387 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:01:00,459 - INFO - Successfully saved 214 records to health_data.json
+2025-08-06 14:01:00,460 - INFO - Health data collected and saved to health_data.json (capture 204)
+2025-08-06 14:01:12,548 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:01:12,617 - INFO - Successfully saved 215 records to health_data.json
+2025-08-06 14:01:12,619 - INFO - Health data collected and saved to health_data.json (capture 205)
+2025-08-06 14:01:24,716 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:01:24,805 - INFO - Successfully saved 216 records to health_data.json
+2025-08-06 14:01:24,806 - INFO - Health data collected and saved to health_data.json (capture 206)
+2025-08-06 14:01:36,914 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:01:37,006 - INFO - Successfully saved 217 records to health_data.json
+2025-08-06 14:01:37,007 - INFO - Health data collected and saved to health_data.json (capture 207)
+2025-08-06 14:01:49,086 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:01:49,157 - INFO - Successfully saved 218 records to health_data.json
+2025-08-06 14:01:49,158 - INFO - Health data collected and saved to health_data.json (capture 208)
+2025-08-06 14:02:01,266 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:02:01,370 - INFO - Successfully saved 219 records to health_data.json
+2025-08-06 14:02:01,371 - INFO - Health data collected and saved to health_data.json (capture 209)
+2025-08-06 14:02:13,455 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:02:13,560 - INFO - Successfully saved 220 records to health_data.json
+2025-08-06 14:02:13,560 - INFO - Health data collected and saved to health_data.json (capture 210)
+2025-08-06 14:02:25,658 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:02:25,732 - INFO - Successfully saved 221 records to health_data.json
+2025-08-06 14:02:25,732 - INFO - Health data collected and saved to health_data.json (capture 211)
+2025-08-06 14:02:37,832 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:02:37,902 - INFO - Successfully saved 222 records to health_data.json
+2025-08-06 14:02:37,902 - INFO - Health data collected and saved to health_data.json (capture 212)
+2025-08-06 14:02:50,013 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:02:50,075 - INFO - Successfully saved 223 records to health_data.json
+2025-08-06 14:02:50,075 - INFO - Health data collected and saved to health_data.json (capture 213)
+2025-08-06 14:03:02,165 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:03:02,243 - INFO - Successfully saved 224 records to health_data.json
+2025-08-06 14:03:02,244 - INFO - Health data collected and saved to health_data.json (capture 214)
+2025-08-06 14:03:14,352 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:03:14,439 - INFO - Successfully saved 225 records to health_data.json
+2025-08-06 14:03:14,440 - INFO - Health data collected and saved to health_data.json (capture 215)
+2025-08-06 14:03:26,540 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:03:26,609 - INFO - Successfully saved 226 records to health_data.json
+2025-08-06 14:03:26,610 - INFO - Health data collected and saved to health_data.json (capture 216)
+2025-08-06 14:03:38,708 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:03:38,788 - INFO - Successfully saved 227 records to health_data.json
+2025-08-06 14:03:38,789 - INFO - Health data collected and saved to health_data.json (capture 217)
+2025-08-06 14:03:50,883 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:03:50,987 - INFO - Successfully saved 228 records to health_data.json
+2025-08-06 14:03:50,987 - INFO - Health data collected and saved to health_data.json (capture 218)
+2025-08-06 14:04:03,083 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:04:03,155 - INFO - Successfully saved 229 records to health_data.json
+2025-08-06 14:04:03,156 - INFO - Health data collected and saved to health_data.json (capture 219)
+2025-08-06 14:04:15,243 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:04:15,306 - INFO - Successfully saved 230 records to health_data.json
+2025-08-06 14:04:15,307 - INFO - Health data collected and saved to health_data.json (capture 220)
+2025-08-06 14:04:27,396 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:04:27,459 - INFO - Successfully saved 231 records to health_data.json
+2025-08-06 14:04:27,460 - INFO - Health data collected and saved to health_data.json (capture 221)
+2025-08-06 14:04:39,554 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:04:39,623 - INFO - Successfully saved 232 records to health_data.json
+2025-08-06 14:04:39,623 - INFO - Health data collected and saved to health_data.json (capture 222)
+2025-08-06 14:04:51,733 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:04:51,800 - INFO - Successfully saved 233 records to health_data.json
+2025-08-06 14:04:51,801 - INFO - Health data collected and saved to health_data.json (capture 223)
+2025-08-06 14:05:03,901 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:05:03,968 - INFO - Successfully saved 234 records to health_data.json
+2025-08-06 14:05:03,968 - INFO - Health data collected and saved to health_data.json (capture 224)
+2025-08-06 14:05:16,078 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:05:16,152 - INFO - Successfully saved 235 records to health_data.json
+2025-08-06 14:05:16,152 - INFO - Health data collected and saved to health_data.json (capture 225)
+2025-08-06 14:05:28,235 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:05:28,305 - INFO - Successfully saved 236 records to health_data.json
+2025-08-06 14:05:28,306 - INFO - Health data collected and saved to health_data.json (capture 226)
+2025-08-06 14:05:40,405 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:05:40,505 - INFO - Successfully saved 237 records to health_data.json
+2025-08-06 14:05:40,506 - INFO - Health data collected and saved to health_data.json (capture 227)
+2025-08-06 14:05:52,601 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:05:52,679 - INFO - Successfully saved 238 records to health_data.json
+2025-08-06 14:05:52,680 - INFO - Health data collected and saved to health_data.json (capture 228)
+2025-08-06 14:06:04,776 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:06:04,865 - INFO - Successfully saved 239 records to health_data.json
+2025-08-06 14:06:04,866 - INFO - Health data collected and saved to health_data.json (capture 229)
+2025-08-06 14:06:16,963 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:06:17,035 - INFO - Successfully saved 240 records to health_data.json
+2025-08-06 14:06:17,036 - INFO - Health data collected and saved to health_data.json (capture 230)
+2025-08-06 14:06:29,110 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:06:29,178 - INFO - Successfully saved 241 records to health_data.json
+2025-08-06 14:06:29,179 - INFO - Health data collected and saved to health_data.json (capture 231)
+2025-08-06 14:06:41,267 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:06:41,343 - INFO - Successfully saved 242 records to health_data.json
+2025-08-06 14:06:41,344 - INFO - Health data collected and saved to health_data.json (capture 232)
+2025-08-06 14:06:53,433 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:06:53,511 - INFO - Successfully saved 243 records to health_data.json
+2025-08-06 14:06:53,512 - INFO - Health data collected and saved to health_data.json (capture 233)
+2025-08-06 14:07:05,615 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:07:05,685 - INFO - Successfully saved 244 records to health_data.json
+2025-08-06 14:07:05,686 - INFO - Health data collected and saved to health_data.json (capture 234)
+2025-08-06 14:07:17,785 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:07:17,860 - INFO - Successfully saved 245 records to health_data.json
+2025-08-06 14:07:17,861 - INFO - Health data collected and saved to health_data.json (capture 235)
+2025-08-06 14:07:29,971 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:07:30,074 - INFO - Successfully saved 246 records to health_data.json
+2025-08-06 14:07:30,076 - INFO - Health data collected and saved to health_data.json (capture 236)
+2025-08-06 14:07:42,191 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:07:42,268 - INFO - Successfully saved 247 records to health_data.json
+2025-08-06 14:07:42,269 - INFO - Health data collected and saved to health_data.json (capture 237)
+2025-08-06 14:07:54,361 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:07:54,429 - INFO - Successfully saved 248 records to health_data.json
+2025-08-06 14:07:54,430 - INFO - Health data collected and saved to health_data.json (capture 238)
+2025-08-06 14:08:06,531 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:08:06,601 - INFO - Successfully saved 249 records to health_data.json
+2025-08-06 14:08:06,602 - INFO - Health data collected and saved to health_data.json (capture 239)
+2025-08-06 14:08:18,708 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:08:18,806 - INFO - Successfully saved 250 records to health_data.json
+2025-08-06 14:08:18,808 - INFO - Health data collected and saved to health_data.json (capture 240)
+2025-08-06 14:08:30,905 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:08:30,981 - INFO - Successfully saved 251 records to health_data.json
+2025-08-06 14:08:30,982 - INFO - Health data collected and saved to health_data.json (capture 241)
+2025-08-06 14:08:43,082 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:08:43,150 - INFO - Successfully saved 252 records to health_data.json
+2025-08-06 14:08:43,151 - INFO - Health data collected and saved to health_data.json (capture 242)
+2025-08-06 14:08:55,236 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:08:55,311 - INFO - Successfully saved 253 records to health_data.json
+2025-08-06 14:08:55,313 - INFO - Health data collected and saved to health_data.json (capture 243)
+2025-08-06 14:09:07,391 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:09:07,468 - INFO - Successfully saved 254 records to health_data.json
+2025-08-06 14:09:07,469 - INFO - Health data collected and saved to health_data.json (capture 244)
+2025-08-06 14:09:19,562 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:09:19,642 - INFO - Successfully saved 255 records to health_data.json
+2025-08-06 14:09:19,642 - INFO - Health data collected and saved to health_data.json (capture 245)
+2025-08-06 14:09:31,757 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:09:31,828 - INFO - Successfully saved 256 records to health_data.json
+2025-08-06 14:09:31,829 - INFO - Health data collected and saved to health_data.json (capture 246)
+2025-08-06 14:09:43,921 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:09:44,003 - INFO - Successfully saved 257 records to health_data.json
+2025-08-06 14:09:44,004 - INFO - Health data collected and saved to health_data.json (capture 247)
+2025-08-06 14:09:56,105 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:09:56,181 - INFO - Successfully saved 258 records to health_data.json
+2025-08-06 14:09:56,182 - INFO - Health data collected and saved to health_data.json (capture 248)
+2025-08-06 14:10:08,274 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:10:08,347 - INFO - Successfully saved 259 records to health_data.json
+2025-08-06 14:10:08,348 - INFO - Health data collected and saved to health_data.json (capture 249)
+2025-08-06 14:10:20,460 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:10:20,546 - INFO - Successfully saved 260 records to health_data.json
+2025-08-06 14:10:20,548 - INFO - Health data collected and saved to health_data.json (capture 250)
+2025-08-06 14:10:32,659 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:10:32,726 - INFO - Successfully saved 261 records to health_data.json
+2025-08-06 14:10:32,728 - INFO - Health data collected and saved to health_data.json (capture 251)
+2025-08-06 14:10:44,839 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:10:44,922 - INFO - Successfully saved 262 records to health_data.json
+2025-08-06 14:10:44,924 - INFO - Health data collected and saved to health_data.json (capture 252)
+2025-08-06 14:10:57,031 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:10:57,137 - INFO - Successfully saved 263 records to health_data.json
+2025-08-06 14:10:57,139 - INFO - Health data collected and saved to health_data.json (capture 253)
+2025-08-06 14:11:09,215 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:11:09,285 - INFO - Successfully saved 264 records to health_data.json
+2025-08-06 14:11:09,286 - INFO - Health data collected and saved to health_data.json (capture 254)
+2025-08-06 14:11:21,370 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:11:21,450 - INFO - Successfully saved 265 records to health_data.json
+2025-08-06 14:11:21,451 - INFO - Health data collected and saved to health_data.json (capture 255)
+2025-08-06 14:11:33,550 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:11:33,642 - INFO - Successfully saved 266 records to health_data.json
+2025-08-06 14:11:33,645 - INFO - Health data collected and saved to health_data.json (capture 256)
+2025-08-06 14:11:45,745 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:11:45,829 - INFO - Successfully saved 267 records to health_data.json
+2025-08-06 14:11:45,830 - INFO - Health data collected and saved to health_data.json (capture 257)
+2025-08-06 14:11:57,921 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:11:58,004 - INFO - Successfully saved 268 records to health_data.json
+2025-08-06 14:11:58,005 - INFO - Health data collected and saved to health_data.json (capture 258)
+2025-08-06 14:12:10,100 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:12:10,179 - INFO - Successfully saved 269 records to health_data.json
+2025-08-06 14:12:10,179 - INFO - Health data collected and saved to health_data.json (capture 259)
+2025-08-06 14:12:22,285 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:12:22,369 - INFO - Successfully saved 270 records to health_data.json
+2025-08-06 14:12:22,370 - INFO - Health data collected and saved to health_data.json (capture 260)
+2025-08-06 14:12:34,480 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:12:34,556 - INFO - Successfully saved 271 records to health_data.json
+2025-08-06 14:12:34,558 - INFO - Health data collected and saved to health_data.json (capture 261)
+2025-08-06 14:12:46,662 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:12:46,751 - INFO - Successfully saved 272 records to health_data.json
+2025-08-06 14:12:46,752 - INFO - Health data collected and saved to health_data.json (capture 262)
+2025-08-06 14:12:58,845 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:12:58,934 - INFO - Successfully saved 273 records to health_data.json
+2025-08-06 14:12:58,936 - INFO - Health data collected and saved to health_data.json (capture 263)
+2025-08-06 14:13:11,043 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:13:11,155 - INFO - Successfully saved 274 records to health_data.json
+2025-08-06 14:13:11,156 - INFO - Health data collected and saved to health_data.json (capture 264)
+2025-08-06 14:13:23,259 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:13:23,339 - INFO - Successfully saved 275 records to health_data.json
+2025-08-06 14:13:23,340 - INFO - Health data collected and saved to health_data.json (capture 265)
+2025-08-06 14:13:35,440 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:13:35,527 - INFO - Successfully saved 276 records to health_data.json
+2025-08-06 14:13:35,528 - INFO - Health data collected and saved to health_data.json (capture 266)
+2025-08-06 14:13:47,619 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:13:47,699 - INFO - Successfully saved 277 records to health_data.json
+2025-08-06 14:13:47,700 - INFO - Health data collected and saved to health_data.json (capture 267)
+2025-08-06 14:13:59,809 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:13:59,899 - INFO - Successfully saved 278 records to health_data.json
+2025-08-06 14:13:59,901 - INFO - Health data collected and saved to health_data.json (capture 268)
+2025-08-06 14:14:12,007 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:14:12,096 - INFO - Successfully saved 279 records to health_data.json
+2025-08-06 14:14:12,097 - INFO - Health data collected and saved to health_data.json (capture 269)
+2025-08-06 14:14:24,201 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:14:24,286 - INFO - Successfully saved 280 records to health_data.json
+2025-08-06 14:14:24,288 - INFO - Health data collected and saved to health_data.json (capture 270)
+2025-08-06 14:14:36,373 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:14:36,462 - INFO - Successfully saved 281 records to health_data.json
+2025-08-06 14:14:36,463 - INFO - Health data collected and saved to health_data.json (capture 271)
+2025-08-06 14:14:48,561 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:14:48,633 - INFO - Successfully saved 282 records to health_data.json
+2025-08-06 14:14:48,634 - INFO - Health data collected and saved to health_data.json (capture 272)
+2025-08-06 14:15:00,745 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:15:00,823 - INFO - Successfully saved 283 records to health_data.json
+2025-08-06 14:15:00,823 - INFO - Health data collected and saved to health_data.json (capture 273)
+2025-08-06 14:15:12,919 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:15:12,992 - INFO - Successfully saved 284 records to health_data.json
+2025-08-06 14:15:12,994 - INFO - Health data collected and saved to health_data.json (capture 274)
+2025-08-06 14:15:25,093 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:15:25,215 - INFO - Successfully saved 285 records to health_data.json
+2025-08-06 14:15:25,217 - INFO - Health data collected and saved to health_data.json (capture 275)
+2025-08-06 14:15:37,305 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:15:37,380 - INFO - Successfully saved 286 records to health_data.json
+2025-08-06 14:15:37,382 - INFO - Health data collected and saved to health_data.json (capture 276)
+2025-08-06 14:15:49,470 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:15:49,552 - INFO - Successfully saved 287 records to health_data.json
+2025-08-06 14:15:49,553 - INFO - Health data collected and saved to health_data.json (capture 277)
+2025-08-06 14:16:01,630 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:16:01,711 - INFO - Successfully saved 288 records to health_data.json
+2025-08-06 14:16:01,713 - INFO - Health data collected and saved to health_data.json (capture 278)
+2025-08-06 14:16:13,803 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:16:13,892 - INFO - Successfully saved 289 records to health_data.json
+2025-08-06 14:16:13,893 - INFO - Health data collected and saved to health_data.json (capture 279)
+2025-08-06 14:16:25,980 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:16:26,083 - INFO - Successfully saved 290 records to health_data.json
+2025-08-06 14:16:26,084 - INFO - Health data collected and saved to health_data.json (capture 280)
+2025-08-06 14:16:38,179 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:16:38,256 - INFO - Successfully saved 291 records to health_data.json
+2025-08-06 14:16:38,257 - INFO - Health data collected and saved to health_data.json (capture 281)
+2025-08-06 14:16:50,378 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:16:50,450 - INFO - Successfully saved 292 records to health_data.json
+2025-08-06 14:16:50,451 - INFO - Health data collected and saved to health_data.json (capture 282)
+2025-08-06 14:17:02,543 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:17:02,629 - INFO - Successfully saved 293 records to health_data.json
+2025-08-06 14:17:02,630 - INFO - Health data collected and saved to health_data.json (capture 283)
+2025-08-06 14:17:14,755 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:17:14,848 - INFO - Successfully saved 294 records to health_data.json
+2025-08-06 14:17:14,850 - INFO - Health data collected and saved to health_data.json (capture 284)
+2025-08-06 14:17:26,935 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:17:27,021 - INFO - Successfully saved 295 records to health_data.json
+2025-08-06 14:17:27,023 - INFO - Health data collected and saved to health_data.json (capture 285)
+2025-08-06 14:17:39,110 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:17:39,204 - INFO - Successfully saved 296 records to health_data.json
+2025-08-06 14:17:39,206 - INFO - Health data collected and saved to health_data.json (capture 286)
+2025-08-06 14:17:51,304 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:17:51,398 - INFO - Successfully saved 297 records to health_data.json
+2025-08-06 14:17:51,400 - INFO - Health data collected and saved to health_data.json (capture 287)
+2025-08-06 14:18:03,487 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:18:03,573 - INFO - Successfully saved 298 records to health_data.json
+2025-08-06 14:18:03,575 - INFO - Health data collected and saved to health_data.json (capture 288)
+2025-08-06 14:18:15,669 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:18:15,749 - INFO - Successfully saved 299 records to health_data.json
+2025-08-06 14:18:15,750 - INFO - Health data collected and saved to health_data.json (capture 289)
+2025-08-06 14:18:27,848 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:18:27,946 - INFO - Successfully saved 300 records to health_data.json
+2025-08-06 14:18:27,948 - INFO - Health data collected and saved to health_data.json (capture 290)
+2025-08-06 14:18:40,047 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:18:40,197 - INFO - Successfully saved 301 records to health_data.json
+2025-08-06 14:18:40,198 - INFO - Health data collected and saved to health_data.json (capture 291)
+2025-08-06 14:18:52,291 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:18:52,391 - INFO - Successfully saved 302 records to health_data.json
+2025-08-06 14:18:52,392 - INFO - Health data collected and saved to health_data.json (capture 292)
+2025-08-06 14:19:04,483 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:19:04,586 - INFO - Successfully saved 303 records to health_data.json
+2025-08-06 14:19:04,588 - INFO - Health data collected and saved to health_data.json (capture 293)
+2025-08-06 14:19:16,687 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:19:16,781 - INFO - Successfully saved 304 records to health_data.json
+2025-08-06 14:19:16,782 - INFO - Health data collected and saved to health_data.json (capture 294)
+2025-08-06 14:19:28,931 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:19:29,093 - INFO - Successfully saved 305 records to health_data.json
+2025-08-06 14:19:29,094 - INFO - Health data collected and saved to health_data.json (capture 295)
+2025-08-06 14:19:41,212 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:19:41,293 - INFO - Successfully saved 306 records to health_data.json
+2025-08-06 14:19:41,294 - INFO - Health data collected and saved to health_data.json (capture 296)
+2025-08-06 14:19:53,399 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:19:53,505 - INFO - Successfully saved 307 records to health_data.json
+2025-08-06 14:19:53,506 - INFO - Health data collected and saved to health_data.json (capture 297)
+2025-08-06 14:20:05,599 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:20:05,688 - INFO - Successfully saved 308 records to health_data.json
+2025-08-06 14:20:05,690 - INFO - Health data collected and saved to health_data.json (capture 298)
+2025-08-06 14:20:17,772 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:20:17,857 - INFO - Successfully saved 309 records to health_data.json
+2025-08-06 14:20:17,858 - INFO - Health data collected and saved to health_data.json (capture 299)
+2025-08-06 14:20:29,950 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:20:30,042 - INFO - Successfully saved 310 records to health_data.json
+2025-08-06 14:20:30,043 - INFO - Health data collected and saved to health_data.json (capture 300)
+2025-08-06 14:20:42,141 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:20:42,225 - INFO - Successfully saved 311 records to health_data.json
+2025-08-06 14:20:42,226 - INFO - Health data collected and saved to health_data.json (capture 301)
+2025-08-06 14:20:54,302 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:20:54,398 - INFO - Successfully saved 312 records to health_data.json
+2025-08-06 14:20:54,400 - INFO - Health data collected and saved to health_data.json (capture 302)
+2025-08-06 14:21:06,483 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:21:06,563 - INFO - Successfully saved 313 records to health_data.json
+2025-08-06 14:21:06,565 - INFO - Health data collected and saved to health_data.json (capture 303)
+2025-08-06 14:21:18,654 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:21:18,775 - INFO - Successfully saved 314 records to health_data.json
+2025-08-06 14:21:18,776 - INFO - Health data collected and saved to health_data.json (capture 304)
+2025-08-06 14:21:30,872 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:21:30,972 - INFO - Successfully saved 315 records to health_data.json
+2025-08-06 14:21:30,973 - INFO - Health data collected and saved to health_data.json (capture 305)
+2025-08-06 14:21:43,117 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:21:43,239 - INFO - Successfully saved 316 records to health_data.json
+2025-08-06 14:21:43,241 - INFO - Health data collected and saved to health_data.json (capture 306)
+2025-08-06 14:21:55,335 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:21:55,443 - INFO - Successfully saved 317 records to health_data.json
+2025-08-06 14:21:55,445 - INFO - Health data collected and saved to health_data.json (capture 307)
+2025-08-06 14:22:07,549 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:22:07,702 - INFO - Successfully saved 318 records to health_data.json
+2025-08-06 14:22:07,704 - INFO - Health data collected and saved to health_data.json (capture 308)
+2025-08-06 14:22:19,816 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:22:19,914 - INFO - Successfully saved 319 records to health_data.json
+2025-08-06 14:22:19,916 - INFO - Health data collected and saved to health_data.json (capture 309)
+2025-08-06 14:22:32,019 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:22:32,114 - INFO - Successfully saved 320 records to health_data.json
+2025-08-06 14:22:32,115 - INFO - Health data collected and saved to health_data.json (capture 310)
+2025-08-06 14:22:44,213 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:22:44,300 - INFO - Successfully saved 321 records to health_data.json
+2025-08-06 14:22:44,302 - INFO - Health data collected and saved to health_data.json (capture 311)
+2025-08-06 14:22:56,392 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:22:56,483 - INFO - Successfully saved 322 records to health_data.json
+2025-08-06 14:22:56,484 - INFO - Health data collected and saved to health_data.json (capture 312)
+2025-08-06 14:23:08,582 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:23:08,683 - INFO - Successfully saved 323 records to health_data.json
+2025-08-06 14:23:08,685 - INFO - Health data collected and saved to health_data.json (capture 313)
+2025-08-06 14:23:20,791 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:23:20,872 - INFO - Successfully saved 324 records to health_data.json
+2025-08-06 14:23:20,873 - INFO - Health data collected and saved to health_data.json (capture 314)
+2025-08-06 14:23:32,976 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:23:33,092 - INFO - Successfully saved 325 records to health_data.json
+2025-08-06 14:23:33,094 - INFO - Health data collected and saved to health_data.json (capture 315)
+2025-08-06 14:23:45,214 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:23:45,312 - INFO - Successfully saved 326 records to health_data.json
+2025-08-06 14:23:45,314 - INFO - Health data collected and saved to health_data.json (capture 316)
+2025-08-06 14:23:57,414 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:23:57,508 - INFO - Successfully saved 327 records to health_data.json
+2025-08-06 14:23:57,509 - INFO - Health data collected and saved to health_data.json (capture 317)
+2025-08-06 14:24:09,611 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:24:09,708 - INFO - Successfully saved 328 records to health_data.json
+2025-08-06 14:24:09,709 - INFO - Health data collected and saved to health_data.json (capture 318)
+2025-08-06 14:24:21,818 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:24:21,907 - INFO - Successfully saved 329 records to health_data.json
+2025-08-06 14:24:21,908 - INFO - Health data collected and saved to health_data.json (capture 319)
+2025-08-06 14:24:33,992 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:24:34,112 - INFO - Successfully saved 330 records to health_data.json
+2025-08-06 14:24:34,114 - INFO - Health data collected and saved to health_data.json (capture 320)
+2025-08-06 14:24:46,209 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:24:46,305 - INFO - Successfully saved 331 records to health_data.json
+2025-08-06 14:24:46,306 - INFO - Health data collected and saved to health_data.json (capture 321)
+2025-08-06 14:24:58,403 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:24:58,507 - INFO - Successfully saved 332 records to health_data.json
+2025-08-06 14:24:58,509 - INFO - Health data collected and saved to health_data.json (capture 322)
+2025-08-06 14:25:10,607 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:25:10,703 - INFO - Successfully saved 333 records to health_data.json
+2025-08-06 14:25:10,704 - INFO - Health data collected and saved to health_data.json (capture 323)
+2025-08-06 14:25:22,787 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:25:22,889 - INFO - Successfully saved 334 records to health_data.json
+2025-08-06 14:25:22,890 - INFO - Health data collected and saved to health_data.json (capture 324)
+2025-08-06 14:25:34,986 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:25:35,129 - INFO - Successfully saved 335 records to health_data.json
+2025-08-06 14:25:35,131 - INFO - Health data collected and saved to health_data.json (capture 325)
+2025-08-06 14:25:47,221 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:25:47,319 - INFO - Successfully saved 336 records to health_data.json
+2025-08-06 14:25:47,320 - INFO - Health data collected and saved to health_data.json (capture 326)
+2025-08-06 14:25:59,418 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:25:59,530 - INFO - Successfully saved 337 records to health_data.json
+2025-08-06 14:25:59,532 - INFO - Health data collected and saved to health_data.json (capture 327)
+2025-08-06 14:26:11,661 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:26:11,769 - INFO - Successfully saved 338 records to health_data.json
+2025-08-06 14:26:11,770 - INFO - Health data collected and saved to health_data.json (capture 328)
+2025-08-06 14:26:23,865 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:26:23,981 - INFO - Successfully saved 339 records to health_data.json
+2025-08-06 14:26:23,981 - INFO - Health data collected and saved to health_data.json (capture 329)
+2025-08-06 14:26:36,094 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:26:36,221 - INFO - Successfully saved 340 records to health_data.json
+2025-08-06 14:26:36,222 - INFO - Health data collected and saved to health_data.json (capture 330)
+2025-08-06 14:26:48,317 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:26:48,425 - INFO - Successfully saved 341 records to health_data.json
+2025-08-06 14:26:48,426 - INFO - Health data collected and saved to health_data.json (capture 331)
+2025-08-06 14:27:00,533 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:27:00,624 - INFO - Successfully saved 342 records to health_data.json
+2025-08-06 14:27:00,626 - INFO - Health data collected and saved to health_data.json (capture 332)
+2025-08-06 14:27:12,718 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:27:12,816 - INFO - Successfully saved 343 records to health_data.json
+2025-08-06 14:27:12,817 - INFO - Health data collected and saved to health_data.json (capture 333)
+2025-08-06 14:27:24,926 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:27:25,034 - INFO - Successfully saved 344 records to health_data.json
+2025-08-06 14:27:25,035 - INFO - Health data collected and saved to health_data.json (capture 334)
+2025-08-06 14:27:37,120 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:27:37,229 - INFO - Successfully saved 345 records to health_data.json
+2025-08-06 14:27:37,230 - INFO - Health data collected and saved to health_data.json (capture 335)
+2025-08-06 14:27:49,331 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:27:49,444 - INFO - Successfully saved 346 records to health_data.json
+2025-08-06 14:27:49,445 - INFO - Health data collected and saved to health_data.json (capture 336)
+2025-08-06 14:28:01,566 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:28:01,665 - INFO - Successfully saved 347 records to health_data.json
+2025-08-06 14:28:01,666 - INFO - Health data collected and saved to health_data.json (capture 337)
+2025-08-06 14:28:13,737 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:28:13,830 - INFO - Successfully saved 348 records to health_data.json
+2025-08-06 14:28:13,831 - INFO - Health data collected and saved to health_data.json (capture 338)
+2025-08-06 14:28:25,920 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:28:26,037 - INFO - Successfully saved 349 records to health_data.json
+2025-08-06 14:28:26,038 - INFO - Health data collected and saved to health_data.json (capture 339)
+2025-08-06 14:28:38,119 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:28:38,220 - INFO - Successfully saved 350 records to health_data.json
+2025-08-06 14:28:38,222 - INFO - Health data collected and saved to health_data.json (capture 340)
+2025-08-06 14:28:50,306 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:28:50,469 - INFO - Successfully saved 351 records to health_data.json
+2025-08-06 14:28:50,470 - INFO - Health data collected and saved to health_data.json (capture 341)
+2025-08-06 14:29:02,564 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:29:02,682 - INFO - Successfully saved 352 records to health_data.json
+2025-08-06 14:29:02,683 - INFO - Health data collected and saved to health_data.json (capture 342)
+2025-08-06 14:29:14,774 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:29:14,886 - INFO - Successfully saved 353 records to health_data.json
+2025-08-06 14:29:14,887 - INFO - Health data collected and saved to health_data.json (capture 343)
+2025-08-06 14:29:26,989 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:29:27,106 - INFO - Successfully saved 354 records to health_data.json
+2025-08-06 14:29:27,107 - INFO - Health data collected and saved to health_data.json (capture 344)
+2025-08-06 14:29:39,212 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:29:39,322 - INFO - Successfully saved 355 records to health_data.json
+2025-08-06 14:29:39,323 - INFO - Health data collected and saved to health_data.json (capture 345)
+2025-08-06 14:29:51,426 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:29:51,548 - INFO - Successfully saved 356 records to health_data.json
+2025-08-06 14:29:51,550 - INFO - Health data collected and saved to health_data.json (capture 346)
+2025-08-06 14:30:03,645 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:30:03,760 - INFO - Successfully saved 357 records to health_data.json
+2025-08-06 14:30:03,762 - INFO - Health data collected and saved to health_data.json (capture 347)
+2025-08-06 14:30:15,901 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:30:16,014 - INFO - Successfully saved 358 records to health_data.json
+2025-08-06 14:30:16,016 - INFO - Health data collected and saved to health_data.json (capture 348)
+2025-08-06 14:30:28,095 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:30:28,226 - INFO - Successfully saved 359 records to health_data.json
+2025-08-06 14:30:28,227 - INFO - Health data collected and saved to health_data.json (capture 349)
+2025-08-06 14:30:40,503 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:30:40,771 - INFO - Successfully saved 360 records to health_data.json
+2025-08-06 14:30:40,775 - INFO - Health data collected and saved to health_data.json (capture 350)
+2025-08-06 14:30:52,869 - INFO - Attempting to save health data to health_data.json
+2025-08-06 14:30:52,970 - INFO - Successfully saved 361 records to health_data.json
+2025-08-06 14:30:52,971 - INFO - Health data collected and saved to health_data.json (capture 351)
+2025-08-06 14:30:58,816 - INFO - Stopping health monitor...
+2025-08-06 14:30:58,817 - INFO - Waiting for monitoring thread to finish...
+2025-08-06 14:31:02,975 - INFO - Health monitor stopped successfully
+2025-08-06 15:05:52,386 - INFO - Starting health monitoring with 10s interval
+2025-08-06 15:05:52,386 - INFO - Health monitor started with 10s interval, saving to health_data.json (max 2 captures)
+2025-08-06 15:05:52,387 - INFO - Will automatically stop after 2 captures
+2025-08-06 15:05:54,499 - INFO - Attempting to save health data to health_data.json
+2025-08-06 15:05:54,646 - INFO - Successfully saved 362 records to health_data.json
+2025-08-06 15:05:54,650 - INFO - Health data collected and saved to health_data.json (capture 1)
+2025-08-06 15:05:57,183 - INFO - Stopping health monitor...
+2025-08-06 15:05:57,183 - INFO - Waiting for monitoring thread to finish...
+2025-08-06 15:06:02,189 - WARNING - Monitoring thread did not stop gracefully within timeout
+2025-08-06 15:06:02,370 - INFO - Starting health monitoring with 10s interval
+2025-08-06 15:06:02,370 - INFO - Health monitor started with 10s interval, saving to health_data.json
+2025-08-06 15:06:04,448 - INFO - Attempting to save health data to health_data.json
+2025-08-06 15:06:04,599 - INFO - Successfully saved 363 records to health_data.json
+2025-08-06 15:06:04,600 - INFO - Health data collected and saved to health_data.json (capture 1)
+2025-08-06 15:06:08,731 - INFO - Stopping health monitor...
+2025-08-06 15:06:08,731 - INFO - Waiting for monitoring thread to finish...
+2025-08-06 15:06:13,734 - WARNING - Monitoring thread did not stop gracefully within timeout
+2025-08-06 15:06:19,728 - ERROR - HTTP server error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-06 15:06:20,729 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:06:20,729 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:06:20,729 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:06:20,730 - INFO - HTTP server available at http://localhost:8080
+2025-08-06 15:06:20,730 - INFO - Health monitor tick #1
+2025-08-06 15:06:25,747 - INFO - Health monitor tick #2
+2025-08-06 15:06:30,747 - INFO - Health monitor tick #3
+2025-08-06 15:06:35,751 - INFO - Health monitor tick #4
+2025-08-06 15:06:40,762 - INFO - Health monitor tick #5
+2025-08-06 15:06:45,771 - INFO - Health monitor tick #6
+2025-08-06 15:06:50,781 - INFO - Health monitor tick #7
+2025-08-06 15:06:55,794 - INFO - Health monitor tick #8
+2025-08-06 15:07:00,810 - INFO - Health monitor tick #9
+2025-08-06 15:07:05,816 - INFO - Health monitor tick #10
+2025-08-06 15:07:10,825 - INFO - Health monitor tick #11
+2025-08-06 15:07:15,831 - INFO - Health monitor tick #12
+2025-08-06 15:07:20,835 - INFO - Health monitor tick #13
+2025-08-06 15:07:25,837 - INFO - Health monitor tick #14
+2025-08-06 15:07:30,850 - INFO - Health monitor tick #15
+2025-08-06 15:07:35,858 - INFO - Health monitor tick #16
+2025-08-06 15:07:40,873 - INFO - Health monitor tick #17
+2025-08-06 15:07:45,882 - INFO - Health monitor tick #18
+2025-08-06 15:07:50,885 - INFO - Health monitor tick #19
+2025-08-06 15:07:55,891 - INFO - Health monitor tick #20
+2025-08-06 15:08:00,906 - INFO - Health monitor tick #21
+2025-08-06 15:08:05,912 - INFO - Health monitor tick #22
+2025-08-06 15:08:10,920 - INFO - Health monitor tick #23
+2025-08-06 15:08:15,934 - INFO - Health monitor tick #24
+2025-08-06 15:08:20,943 - INFO - Health monitor tick #25
+2025-08-06 15:08:25,959 - INFO - Health monitor tick #26
+2025-08-06 15:08:30,965 - INFO - Health monitor tick #27
+2025-08-06 15:08:35,982 - INFO - Health monitor tick #28
+2025-08-06 15:08:40,989 - INFO - Health monitor tick #29
+2025-08-06 15:08:46,002 - INFO - Health monitor tick #30
+2025-08-06 15:08:51,007 - INFO - Health monitor tick #31
+2025-08-06 15:08:56,009 - INFO - Health monitor tick #32
+2025-08-06 15:09:01,012 - INFO - Health monitor tick #33
+2025-08-06 15:09:06,016 - INFO - Health monitor tick #34
+2025-08-06 15:09:11,023 - INFO - Health monitor tick #35
+2025-08-06 15:09:16,038 - INFO - Health monitor tick #36
+2025-08-06 15:09:21,054 - INFO - Health monitor tick #37
+2025-08-06 15:09:26,069 - INFO - Health monitor tick #38
+2025-08-06 15:09:31,072 - INFO - Health monitor tick #39
+2025-08-06 15:09:36,085 - INFO - Health monitor tick #40
+2025-08-06 15:09:41,094 - INFO - Health monitor tick #41
+2025-08-06 15:09:46,098 - INFO - Health monitor tick #42
+2025-08-06 15:09:51,108 - INFO - Health monitor tick #43
+2025-08-06 15:09:56,120 - INFO - Health monitor tick #44
+2025-08-06 15:10:01,135 - INFO - Health monitor tick #45
+2025-08-06 15:10:06,136 - INFO - Health monitor tick #46
+2025-08-06 15:10:11,144 - INFO - Health monitor tick #47
+2025-08-06 15:10:16,160 - INFO - Health monitor tick #48
+2025-08-06 15:10:21,165 - INFO - Health monitor tick #49
+2025-08-06 15:10:26,167 - INFO - Health monitor tick #50
+2025-08-06 15:10:31,177 - INFO - Health monitor tick #51
+2025-08-06 15:10:36,193 - INFO - Health monitor tick #52
+2025-08-06 15:10:41,202 - INFO - Health monitor tick #53
+2025-08-06 15:10:46,214 - INFO - Health monitor tick #54
+2025-08-06 15:10:51,228 - INFO - Health monitor tick #55
+2025-08-06 15:10:56,235 - INFO - Health monitor tick #56
+2025-08-06 15:11:01,249 - INFO - Health monitor tick #57
+2025-08-06 15:11:06,258 - INFO - Health monitor tick #58
+2025-08-06 15:11:11,272 - INFO - Health monitor tick #59
+2025-08-06 15:11:16,276 - INFO - Health monitor tick #60
+2025-08-06 15:11:21,280 - INFO - Health monitor tick #61
+2025-08-06 15:11:26,288 - INFO - Health monitor tick #62
+2025-08-06 15:11:31,298 - INFO - Health monitor tick #63
+2025-08-06 15:11:36,313 - INFO - Health monitor tick #64
+2025-08-06 15:11:41,328 - INFO - Health monitor tick #65
+2025-08-06 15:11:46,333 - INFO - Health monitor tick #66
+2025-08-06 15:11:51,334 - INFO - Health monitor tick #67
+2025-08-06 15:11:56,350 - INFO - Health monitor tick #68
+2025-08-06 15:12:01,359 - INFO - Health monitor tick #69
+2025-08-06 15:12:06,370 - INFO - Health monitor tick #70
+2025-08-06 15:12:11,378 - INFO - Health monitor tick #71
+2025-08-06 15:12:16,380 - INFO - Health monitor tick #72
+2025-08-06 15:12:21,384 - INFO - Health monitor tick #73
+2025-08-06 15:12:26,404 - INFO - Health monitor tick #74
+2025-08-06 15:12:31,418 - INFO - Health monitor tick #75
+2025-08-06 15:12:36,433 - INFO - Health monitor tick #76
+2025-08-06 15:12:41,449 - INFO - Health monitor tick #77
+2025-08-06 15:12:46,452 - INFO - Health monitor tick #78
+2025-08-06 15:12:51,462 - INFO - Health monitor tick #79
+2025-08-06 15:12:56,472 - INFO - Health monitor tick #80
+2025-08-06 15:13:01,481 - INFO - Health monitor tick #81
+2025-08-06 15:13:06,489 - INFO - Health monitor tick #82
+2025-08-06 15:13:11,491 - INFO - Health monitor tick #83
+2025-08-06 15:13:16,498 - INFO - Health monitor tick #84
+2025-08-06 15:13:21,509 - INFO - Health monitor tick #85
+2025-08-06 15:13:26,513 - INFO - Health monitor tick #86
+2025-08-06 15:13:31,514 - INFO - Health monitor tick #87
+2025-08-06 15:13:33,080 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:13:33,080 - INFO - Stopping health monitor...
+2025-08-06 15:13:33,080 - INFO - Waiting for monitoring thread to stop...
+2025-08-06 15:13:36,516 - INFO - Health monitor stopped after 87 captures
+2025-08-06 15:13:39,290 - ERROR - HTTP server error: [WinError 10013] An attempt was made to access a socket in a way forbidden by its access permissions
+2025-08-06 15:13:40,293 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:13:40,293 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:13:40,293 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:13:40,293 - INFO - HTTP server available at http://localhost:8080
+2025-08-06 15:13:40,293 - INFO - Health monitor tick #1
+2025-08-06 15:13:45,310 - INFO - Health monitor tick #2
+2025-08-06 15:13:50,314 - INFO - Health monitor tick #3
+2025-08-06 15:13:55,324 - INFO - Health monitor tick #4
+2025-08-06 15:14:00,338 - INFO - Health monitor tick #5
+2025-08-06 15:14:05,347 - INFO - Health monitor tick #6
+2025-08-06 15:14:10,350 - INFO - Health monitor tick #7
+2025-08-06 15:14:15,360 - INFO - Health monitor tick #8
+2025-08-06 15:14:20,364 - INFO - Health monitor tick #9
+2025-08-06 15:14:25,371 - INFO - Health monitor tick #10
+2025-08-06 15:14:30,377 - INFO - Health monitor tick #11
+2025-08-06 15:14:35,380 - INFO - Health monitor tick #12
+2025-08-06 15:14:40,388 - INFO - Health monitor tick #13
+2025-08-06 15:14:45,394 - INFO - Health monitor tick #14
+2025-08-06 15:14:50,395 - INFO - Health monitor tick #15
+2025-08-06 15:14:55,403 - INFO - Health monitor tick #16
+2025-08-06 15:15:00,419 - INFO - Health monitor tick #17
+2025-08-06 15:15:05,428 - INFO - Health monitor tick #18
+2025-08-06 15:15:10,441 - INFO - Health monitor tick #19
+2025-08-06 15:15:15,445 - INFO - Health monitor tick #20
+2025-08-06 15:15:20,450 - INFO - Health monitor tick #21
+2025-08-06 15:15:25,466 - INFO - Health monitor tick #22
+2025-08-06 15:15:30,490 - INFO - Health monitor tick #23
+2025-08-06 15:15:35,505 - INFO - Health monitor tick #24
+2025-08-06 15:15:40,508 - INFO - Health monitor tick #25
+2025-08-06 15:15:45,514 - INFO - Health monitor tick #26
+2025-08-06 15:15:50,528 - INFO - Health monitor tick #27
+2025-08-06 15:15:55,534 - INFO - Health monitor tick #28
+2025-08-06 15:16:00,549 - INFO - Health monitor tick #29
+2025-08-06 15:16:05,554 - INFO - Health monitor tick #30
+2025-08-06 15:16:10,561 - INFO - Health monitor tick #31
+2025-08-06 15:16:15,576 - INFO - Health monitor tick #32
+2025-08-06 15:16:20,578 - INFO - Health monitor tick #33
+2025-08-06 15:16:25,580 - INFO - Health monitor tick #34
+2025-08-06 15:16:30,594 - INFO - Health monitor tick #35
+2025-08-06 15:16:35,599 - INFO - Health monitor tick #36
+2025-08-06 15:16:40,604 - INFO - Health monitor tick #37
+2025-08-06 15:16:45,608 - INFO - Health monitor tick #38
+2025-08-06 15:16:50,624 - INFO - Health monitor tick #39
+2025-08-06 15:16:55,638 - INFO - Health monitor tick #40
+2025-08-06 15:17:00,639 - INFO - Health monitor tick #41
+2025-08-06 15:17:05,655 - INFO - Health monitor tick #42
+2025-08-06 15:17:10,671 - INFO - Health monitor tick #43
+2025-08-06 15:17:15,675 - INFO - Health monitor tick #44
+2025-08-06 15:17:20,688 - INFO - Health monitor tick #45
+2025-08-06 15:17:25,690 - INFO - Health monitor tick #46
+2025-08-06 15:17:30,692 - INFO - Health monitor tick #47
+2025-08-06 15:17:35,706 - INFO - Health monitor tick #48
+2025-08-06 15:17:40,716 - INFO - Health monitor tick #49
+2025-08-06 15:17:45,726 - INFO - Health monitor tick #50
+2025-08-06 15:17:50,732 - INFO - Health monitor tick #51
+2025-08-06 15:17:55,737 - INFO - Health monitor tick #52
+2025-08-06 15:18:00,742 - INFO - Health monitor tick #53
+2025-08-06 15:18:05,750 - INFO - Health monitor tick #54
+2025-08-06 15:18:10,751 - INFO - Health monitor tick #55
+2025-08-06 15:18:15,763 - INFO - Health monitor tick #56
+2025-08-06 15:18:20,774 - INFO - Health monitor tick #57
+2025-08-06 15:18:25,790 - INFO - Health monitor tick #58
+2025-08-06 15:18:30,792 - INFO - Health monitor tick #59
+2025-08-06 15:18:35,794 - INFO - Health monitor tick #60
+2025-08-06 15:18:40,807 - INFO - Health monitor tick #61
+2025-08-06 15:18:45,808 - INFO - Health monitor tick #62
+2025-08-06 15:18:50,824 - INFO - Health monitor tick #63
+2025-08-06 15:18:55,826 - INFO - Health monitor tick #64
+2025-08-06 15:19:00,828 - INFO - Health monitor tick #65
+2025-08-06 15:19:05,837 - INFO - Health monitor tick #66
+2025-08-06 15:19:10,844 - INFO - Health monitor tick #67
+2025-08-06 15:19:15,851 - INFO - Health monitor tick #68
+2025-08-06 15:19:20,854 - INFO - Health monitor tick #69
+2025-08-06 15:19:25,859 - INFO - Health monitor tick #70
+2025-08-06 15:19:27,470 - INFO - HTTP server starting on http://localhost:8081
+2025-08-06 15:19:28,454 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:19:28,454 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:19:28,454 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:19:28,454 - INFO - HTTP server available at http://localhost:8081
+2025-08-06 15:19:28,454 - INFO - Health monitor tick #1
+2025-08-06 15:19:30,872 - INFO - Health monitor tick #71
+2025-08-06 15:19:33,472 - INFO - Health monitor tick #2
+2025-08-06 15:19:35,882 - INFO - Health monitor tick #72
+2025-08-06 15:19:38,488 - INFO - Health monitor tick #3
+2025-08-06 15:19:40,884 - INFO - Health monitor tick #73
+2025-08-06 15:19:43,492 - INFO - Health monitor tick #4
+2025-08-06 15:19:45,889 - INFO - Health monitor tick #74
+2025-08-06 15:19:48,499 - INFO - Health monitor tick #5
+2025-08-06 15:19:50,905 - INFO - Health monitor tick #75
+2025-08-06 15:19:53,506 - INFO - Health monitor tick #6
+2025-08-06 15:19:55,910 - INFO - Health monitor tick #76
+2025-08-06 15:19:58,509 - INFO - Health monitor tick #7
+2025-08-06 15:20:00,926 - INFO - Health monitor tick #77
+2025-08-06 15:20:03,511 - INFO - Health monitor tick #8
+2025-08-06 15:20:05,930 - INFO - Health monitor tick #78
+2025-08-06 15:20:08,520 - INFO - Health monitor tick #9
+2025-08-06 15:20:10,938 - INFO - Health monitor tick #79
+2025-08-06 15:20:13,523 - INFO - Health monitor tick #10
+2025-08-06 15:20:15,954 - INFO - Health monitor tick #80
+2025-08-06 15:20:18,536 - INFO - Health monitor tick #11
+2025-08-06 15:20:20,922 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:20:20,922 - INFO - Stopping health monitor...
+2025-08-06 15:20:20,922 - INFO - Shutting down HTTP server...
+2025-08-06 15:20:20,956 - INFO - Health monitor tick #81
+2025-08-06 15:20:25,960 - INFO - Health monitor tick #82
+2025-08-06 15:20:30,963 - INFO - Health monitor tick #83
+2025-08-06 15:20:35,972 - INFO - Health monitor tick #84
+2025-08-06 15:20:40,985 - INFO - Health monitor tick #85
+2025-08-06 15:20:45,991 - INFO - Health monitor tick #86
+2025-08-06 15:20:51,002 - INFO - Health monitor tick #87
+2025-08-06 15:20:56,022 - INFO - Health monitor tick #88
+2025-08-06 15:21:01,032 - INFO - Health monitor tick #89
+2025-08-06 15:21:06,041 - INFO - Health monitor tick #90
+2025-08-06 15:21:11,048 - INFO - Health monitor tick #91
+2025-08-06 15:21:16,065 - INFO - Health monitor tick #92
+2025-08-06 15:21:19,664 - INFO - Health monitor stopped after 11 captures
+2025-08-06 15:21:21,070 - INFO - Health monitor tick #93
+2025-08-06 15:21:26,072 - INFO - Health monitor tick #94
+2025-08-06 15:21:31,087 - INFO - Health monitor tick #95
+2025-08-06 15:21:34,486 - INFO - HTTP server starting on http://localhost:8081
+2025-08-06 15:21:35,473 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:21:35,473 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:21:35,473 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:21:35,473 - INFO - HTTP server available at http://localhost:8081
+2025-08-06 15:21:35,473 - INFO - Health monitor tick #1
+2025-08-06 15:21:36,089 - INFO - Health monitor tick #96
+2025-08-06 15:21:40,552 - INFO - Health monitor tick #2
+2025-08-06 15:21:41,104 - INFO - Health monitor tick #97
+2025-08-06 15:21:41,337 - ERROR - Error handling request: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-08-06 15:21:45,567 - INFO - Health monitor tick #3
+2025-08-06 15:21:46,119 - INFO - Health monitor tick #98
+2025-08-06 15:21:50,570 - INFO - Health monitor tick #4
+2025-08-06 15:21:51,120 - INFO - Health monitor tick #99
+2025-08-06 15:21:55,571 - INFO - Health monitor tick #5
+2025-08-06 15:21:56,121 - INFO - Health monitor tick #100
+2025-08-06 15:21:56,121 - INFO - Reached maximum captures (100). Stopping monitor...
+2025-08-06 15:22:00,577 - INFO - Health monitor tick #6
+2025-08-06 15:22:05,586 - INFO - Health monitor tick #7
+2025-08-06 15:22:10,602 - INFO - Health monitor tick #8
+2025-08-06 15:22:15,603 - INFO - Health monitor tick #9
+2025-08-06 15:22:16,888 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:22:16,888 - INFO - Stopping health monitor...
+2025-08-06 15:22:16,888 - INFO - Shutting down HTTP server...
+2025-08-06 15:22:25,769 - INFO - Health monitor stopped after 9 captures
+2025-08-06 15:23:16,677 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:23:17,672 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:23:17,672 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:23:17,672 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:23:17,672 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:23:17,672 - INFO - Health monitor tick #1
+2025-08-06 15:23:22,684 - INFO - Health monitor tick #2
+2025-08-06 15:23:27,695 - INFO - Health monitor tick #3
+2025-08-06 15:23:32,710 - INFO - Health monitor tick #4
+2025-08-06 15:23:37,725 - INFO - Health monitor tick #5
+2025-08-06 15:23:42,738 - INFO - Health monitor tick #6
+2025-08-06 15:23:47,755 - INFO - Health monitor tick #7
+2025-08-06 15:23:52,767 - INFO - Health monitor tick #8
+2025-08-06 15:23:57,773 - INFO - Health monitor tick #9
+2025-08-06 15:24:02,789 - INFO - Health monitor tick #10
+2025-08-06 15:24:07,797 - INFO - Health monitor tick #11
+2025-08-06 15:24:12,798 - INFO - Health monitor tick #12
+2025-08-06 15:24:17,809 - INFO - Health monitor tick #13
+2025-08-06 15:24:22,824 - INFO - Health monitor tick #14
+2025-08-06 15:24:27,830 - INFO - Health monitor tick #15
+2025-08-06 15:24:32,832 - INFO - Health monitor tick #16
+2025-08-06 15:24:37,846 - INFO - Health monitor tick #17
+2025-08-06 15:24:42,852 - INFO - Health monitor tick #18
+2025-08-06 15:24:47,860 - INFO - Health monitor tick #19
+2025-08-06 15:24:52,874 - INFO - Health monitor tick #20
+2025-08-06 15:24:57,889 - INFO - Health monitor tick #21
+2025-08-06 15:25:02,891 - INFO - Health monitor tick #22
+2025-08-06 15:25:05,256 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:25:05,256 - INFO - Stopping health monitor...
+2025-08-06 15:25:05,256 - INFO - Shutting down HTTP server...
+2025-08-06 15:25:05,707 - INFO - Waiting for monitoring thread to stop...
+2025-08-06 15:25:07,896 - INFO - Health monitor stopped after 22 captures
+2025-08-06 15:25:10,824 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:25:11,834 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:25:11,835 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:25:11,835 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:25:11,835 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:25:11,835 - INFO - Health monitor tick #1
+2025-08-06 15:25:16,848 - INFO - Health monitor tick #2
+2025-08-06 15:25:21,859 - INFO - Health monitor tick #3
+2025-08-06 15:25:26,870 - INFO - Health monitor tick #4
+2025-08-06 15:25:31,874 - INFO - Health monitor tick #5
+2025-08-06 15:25:36,031 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:25:36,033 - INFO - Stopping health monitor...
+2025-08-06 15:25:36,033 - INFO - Shutting down HTTP server...
+2025-08-06 15:25:56,952 - INFO - Health monitor stopped after 5 captures
+2025-08-06 15:27:12,690 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:27:13,679 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:27:13,679 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:27:13,679 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:27:13,679 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:27:13,679 - INFO - Health monitor tick #1
+2025-08-06 15:27:18,691 - INFO - Health monitor tick #2
+2025-08-06 15:27:23,702 - INFO - Health monitor tick #3
+2025-08-06 15:27:28,704 - INFO - Health monitor tick #4
+2025-08-06 15:27:33,707 - INFO - Health monitor tick #5
+2025-08-06 15:27:38,713 - INFO - Health monitor tick #6
+2025-08-06 15:27:43,715 - INFO - Health monitor tick #7
+2025-08-06 15:27:48,722 - INFO - Health monitor tick #8
+2025-08-06 15:27:53,729 - INFO - Health monitor tick #9
+2025-08-06 15:27:58,741 - INFO - Health monitor tick #10
+2025-08-06 15:28:03,746 - INFO - Health monitor tick #11
+2025-08-06 15:28:08,751 - INFO - Health monitor tick #12
+2025-08-06 15:28:13,754 - INFO - Health monitor tick #13
+2025-08-06 15:28:18,766 - INFO - Health monitor tick #14
+2025-08-06 15:28:23,779 - INFO - Health monitor tick #15
+2025-08-06 15:28:28,785 - INFO - Health monitor tick #16
+2025-08-06 15:28:33,786 - INFO - Health monitor tick #17
+2025-08-06 15:28:38,797 - INFO - Health monitor tick #18
+2025-08-06 15:28:43,801 - INFO - Health monitor tick #19
+2025-08-06 15:28:48,810 - INFO - Health monitor tick #20
+2025-08-06 15:28:53,824 - INFO - Health monitor tick #21
+2025-08-06 15:28:58,834 - INFO - Health monitor tick #22
+2025-08-06 15:29:03,842 - INFO - Health monitor tick #23
+2025-08-06 15:29:08,852 - INFO - Health monitor tick #24
+2025-08-06 15:29:13,856 - INFO - Health monitor tick #25
+2025-08-06 15:29:18,867 - INFO - Health monitor tick #26
+2025-08-06 15:29:23,868 - INFO - Health monitor tick #27
+2025-08-06 15:29:28,877 - INFO - Health monitor tick #28
+2025-08-06 15:29:33,885 - INFO - Health monitor tick #29
+2025-08-06 15:29:38,899 - INFO - Health monitor tick #30
+2025-08-06 15:29:43,909 - INFO - Health monitor tick #31
+2025-08-06 15:29:48,910 - INFO - Health monitor tick #32
+2025-08-06 15:29:53,919 - INFO - Health monitor tick #33
+2025-08-06 15:29:58,935 - INFO - Health monitor tick #34
+2025-08-06 15:30:03,942 - INFO - Health monitor tick #35
+2025-08-06 15:30:08,957 - INFO - Health monitor tick #36
+2025-08-06 15:30:13,962 - INFO - Health monitor tick #37
+2025-08-06 15:30:18,969 - INFO - Health monitor tick #38
+2025-08-06 15:30:23,975 - INFO - Health monitor tick #39
+2025-08-06 15:30:28,985 - INFO - Health monitor tick #40
+2025-08-06 15:30:33,989 - INFO - Health monitor tick #41
+2025-08-06 15:30:39,001 - INFO - Health monitor tick #42
+2025-08-06 15:30:44,009 - INFO - Health monitor tick #43
+2025-08-06 15:30:49,015 - INFO - Health monitor tick #44
+2025-08-06 15:30:54,028 - INFO - Health monitor tick #45
+2025-08-06 15:30:59,043 - INFO - Health monitor tick #46
+2025-08-06 15:31:04,053 - INFO - Health monitor tick #47
+2025-08-06 15:31:09,064 - INFO - Health monitor tick #48
+2025-08-06 15:31:14,076 - INFO - Health monitor tick #49
+2025-08-06 15:31:19,082 - INFO - Health monitor tick #50
+2025-08-06 15:31:24,089 - INFO - Health monitor tick #51
+2025-08-06 15:31:29,096 - INFO - Health monitor tick #52
+2025-08-06 15:31:34,099 - INFO - Health monitor tick #53
+2025-08-06 15:31:39,107 - INFO - Health monitor tick #54
+2025-08-06 15:31:44,111 - INFO - Health monitor tick #55
+2025-08-06 15:31:49,124 - INFO - Health monitor tick #56
+2025-08-06 15:31:54,127 - INFO - Health monitor tick #57
+2025-08-06 15:31:59,134 - INFO - Health monitor tick #58
+2025-08-06 15:32:04,141 - INFO - Health monitor tick #59
+2025-08-06 15:32:09,148 - INFO - Health monitor tick #60
+2025-08-06 15:32:14,152 - INFO - Health monitor tick #61
+2025-08-06 15:32:19,156 - INFO - Health monitor tick #62
+2025-08-06 15:32:24,166 - INFO - Health monitor tick #63
+2025-08-06 15:32:29,170 - INFO - Health monitor tick #64
+2025-08-06 15:32:34,173 - INFO - Health monitor tick #65
+2025-08-06 15:32:39,184 - INFO - Health monitor tick #66
+2025-08-06 15:32:44,193 - INFO - Health monitor tick #67
+2025-08-06 15:32:49,198 - INFO - Health monitor tick #68
+2025-08-06 15:32:52,306 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:32:52,306 - INFO - Stopping health monitor...
+2025-08-06 15:32:52,306 - INFO - Shutting down HTTP server...
+2025-08-06 15:33:26,625 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:33:27,618 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:33:27,618 - INFO - Health monitor started with 5s interval (max 100 captures)
+2025-08-06 15:33:27,618 - INFO - Will automatically stop after 100 captures
+2025-08-06 15:33:27,618 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:33:27,620 - INFO - Health monitor tick #1
+2025-08-06 15:33:32,631 - INFO - Health monitor tick #2
+2025-08-06 15:33:37,639 - INFO - Health monitor tick #3
+2025-08-06 15:33:42,655 - INFO - Health monitor tick #4
+2025-08-06 15:33:47,664 - INFO - Health monitor tick #5
+2025-08-06 15:33:52,670 - INFO - Health monitor tick #6
+2025-08-06 15:33:57,683 - INFO - Health monitor tick #7
+2025-08-06 15:34:02,685 - INFO - Health monitor tick #8
+2025-08-06 15:34:07,688 - INFO - Health monitor tick #9
+2025-08-06 15:34:07,832 - WARNING - Monitor is not running!
+2025-08-06 15:34:12,695 - INFO - Health monitor tick #10
+2025-08-06 15:34:17,712 - INFO - Health monitor tick #11
+2025-08-06 15:34:22,717 - INFO - Health monitor tick #12
+2025-08-06 15:34:27,720 - INFO - Health monitor tick #13
+2025-08-06 15:34:32,726 - INFO - Health monitor tick #14
+2025-08-06 15:34:37,728 - INFO - Health monitor tick #15
+2025-08-06 15:34:42,731 - INFO - Health monitor tick #16
+2025-08-06 15:34:47,746 - INFO - Health monitor tick #17
+2025-08-06 15:34:52,754 - INFO - Health monitor tick #18
+2025-08-06 15:34:57,769 - INFO - Health monitor tick #19
+2025-08-06 15:35:02,782 - INFO - Health monitor tick #20
+2025-08-06 15:35:07,794 - INFO - Health monitor tick #21
+2025-08-06 15:35:12,810 - INFO - Health monitor tick #22
+2025-08-06 15:35:17,811 - INFO - Health monitor tick #23
+2025-08-06 15:35:22,816 - INFO - Health monitor tick #24
+2025-08-06 15:35:27,824 - INFO - Health monitor tick #25
+2025-08-06 15:35:32,834 - INFO - Health monitor tick #26
+2025-08-06 15:35:37,847 - INFO - Health monitor tick #27
+2025-08-06 15:35:42,861 - INFO - Health monitor tick #28
+2025-08-06 15:35:47,869 - INFO - Health monitor tick #29
+2025-08-06 15:35:52,875 - INFO - Health monitor tick #30
+2025-08-06 15:35:57,878 - INFO - Health monitor tick #31
+2025-08-06 15:36:02,888 - INFO - Health monitor tick #32
+2025-08-06 15:36:07,893 - INFO - Health monitor tick #33
+2025-08-06 15:36:12,901 - INFO - Health monitor tick #34
+2025-08-06 15:36:17,910 - INFO - Health monitor tick #35
+2025-08-06 15:36:22,918 - INFO - Health monitor tick #36
+2025-08-06 15:36:27,932 - INFO - Health monitor tick #37
+2025-08-06 15:36:32,933 - INFO - Health monitor tick #38
+2025-08-06 15:36:37,948 - INFO - Health monitor tick #39
+2025-08-06 15:36:42,956 - INFO - Health monitor tick #40
+2025-08-06 15:36:47,966 - INFO - Health monitor tick #41
+2025-08-06 15:36:52,974 - INFO - Health monitor tick #42
+2025-08-06 15:36:57,981 - INFO - Health monitor tick #43
+2025-08-06 15:37:02,984 - INFO - Health monitor tick #44
+2025-08-06 15:37:07,993 - INFO - Health monitor tick #45
+2025-08-06 15:37:13,000 - INFO - Health monitor tick #46
+2025-08-06 15:37:18,005 - INFO - Health monitor tick #47
+2025-08-06 15:37:23,009 - INFO - Health monitor tick #48
+2025-08-06 15:37:28,016 - INFO - Health monitor tick #49
+2025-08-06 15:37:33,023 - INFO - Health monitor tick #50
+2025-08-06 15:37:38,028 - INFO - Health monitor tick #51
+2025-08-06 15:37:43,037 - INFO - Health monitor tick #52
+2025-08-06 15:37:45,611 - INFO - Received interrupt signal, stopping monitor...
+2025-08-06 15:37:45,613 - INFO - Stopping health monitor...
+2025-08-06 15:37:45,613 - INFO - Shutting down HTTP server...
+2025-08-06 15:39:04,090 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:39:05,088 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:39:05,088 - INFO - Health monitor started with 5s interval (max 2 captures)
+2025-08-06 15:39:05,088 - INFO - Will automatically stop after 2 captures
+2025-08-06 15:39:05,088 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:39:05,088 - INFO - Health monitor tick #1
+2025-08-06 15:39:12,198 - INFO - Health monitor tick #2
+2025-08-06 15:39:12,200 - INFO - Reached maximum captures (2). Stopping monitor...
+2025-08-06 15:40:12,215 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:40:13,205 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:40:13,205 - INFO - Health monitor started with 5s interval (max 2 captures)
+2025-08-06 15:40:13,205 - INFO - Will automatically stop after 2 captures
+2025-08-06 15:40:13,205 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:40:13,205 - INFO - Health monitor tick #1
+2025-08-06 15:40:20,297 - INFO - Health monitor tick #2
+2025-08-06 15:40:20,297 - INFO - Reached maximum captures (2). Stopping monitor...
+2025-08-06 15:44:10,230 - INFO - Health monitor stopped after 52 captures
+2025-08-06 15:45:05,335 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:45:06,327 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:45:06,327 - INFO - Health monitor started with 5s interval (max 2 captures)
+2025-08-06 15:45:06,327 - INFO - Will automatically stop after 2 captures
+2025-08-06 15:45:06,327 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:45:06,327 - INFO - Health monitor tick #1
+2025-08-06 15:45:08,446 - INFO - Collected health data: {
+  "id": "21811faa",
+  "name": "data-processor-01",
+  "stype": "worker",
+  "project": "health-monitoring",
+  "env": "production",
+  "ct": 1754475306327,
+  "mt": 1754475306327,
+  "alivets": 1754475306327,
+  "status": 1,
+  "running": true,
+  "starttime": 1754475305326,
+  "stoptime": 0,
+  "version": "v2.0.0",
+  "user": "KIIT",
+  "deploy": 1754475305326,
+  "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+  "ip": [
+    {
+      "interface": "localhost",
+      "ip": "127.0.0.1",
+      "netmask": "255.0.0.0",
+      "type": "IPv4"
+    }
+  ],
+  "hosts": null,
+  "ssl": "",
+  "poll": 5000,
+  "health": {
+    "diskrw": {
+      "reads": 17937780,
+      "writes": 12615458
+    },
+    "core": 8,
+    "memory": {
+      "total": 15931,
+      "used": 88
+    },
+    "load": {
+      "min5": "0.00",
+      "min15": "0.00",
+      "min1": "",
+      "uptime": "7 days"
+    },
+    "cpu": {
+      "sy": 8,
+      "wa": 0,
+      "id": 81,
+      "us": 10
+    },
+    "diskinfo": [
+      {
+        "total": 497775612,
+        "name": "/conf",
+        "used": 80.5,
+        "type": "ext4"
+      }
+    ],
+    "network": {
+      "txbytes": 228241091,
+      "rxbytes": 448616773
+    }
+  }
+}
+2025-08-06 15:45:13,452 - INFO - Health monitor tick #2
+2025-08-06 15:45:13,456 - INFO - Reached maximum captures (2). Stopping monitor...
+2025-08-06 15:46:00,682 - INFO - HTTP server starting on http://localhost:3000
+2025-08-06 15:46:01,672 - INFO - Starting health monitoring with 5s interval
+2025-08-06 15:46:01,672 - INFO - Health monitor started with 5s interval (max 3 captures)
+2025-08-06 15:46:01,672 - INFO - Will automatically stop after 3 captures
+2025-08-06 15:46:01,672 - INFO - HTTP server available at http://localhost:3000
+2025-08-06 15:46:01,672 - INFO - Health monitor tick #1
+2025-08-06 15:46:03,751 - INFO - Collected health data: {
+  "id": "416c190c",
+  "name": "data-processor-01",
+  "stype": "worker",
+  "project": "health-monitoring",
+  "env": "production",
+  "ct": 1754475361672,
+  "mt": 1754475361672,
+  "alivets": 1754475361672,
+  "status": 1,
+  "running": true,
+  "starttime": 1754475360659,
+  "stoptime": 0,
+  "version": "v2.0.0",
+  "user": "KIIT",
+  "deploy": 1754475360659,
+  "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+  "ip": [
+    {
+      "interface": "localhost",
+      "ip": "127.0.0.1",
+      "netmask": "255.0.0.0",
+      "type": "IPv4"
+    }
+  ],
+  "hosts": null,
+  "ssl": "",
+  "poll": 5000,
+  "health": {
+    "diskrw": {
+      "reads": 17940441,
+      "writes": 12616390
+    },
+    "core": 8,
+    "memory": {
+      "total": 15931,
+      "used": 88
+    },
+    "load": {
+      "min5": "0.00",
+      "min15": "0.00",
+      "min1": "",
+      "uptime": "7 days"
+    },
+    "cpu": {
+      "sy": 10,
+      "wa": 0,
+      "id": 81,
+      "us": 7
+    },
+    "diskinfo": [
+      {
+        "total": 497775612,
+        "name": "/conf",
+        "used": 80.5,
+        "type": "ext4"
+      }
+    ],
+    "network": {
+      "txbytes": 228917064,
+      "rxbytes": 449216506
+    }
+  }
+}
+2025-08-06 15:46:08,769 - INFO - Health monitor tick #2
+2025-08-06 15:46:10,846 - INFO - Collected health data: {
+  "id": "416c190c",
+  "name": "data-processor-01",
+  "stype": "worker",
+  "project": "health-monitoring",
+  "env": "production",
+  "ct": 1754475368770,
+  "mt": 1754475368770,
+  "alivets": 1754475368770,
+  "status": 1,
+  "running": true,
+  "starttime": 1754475360659,
+  "stoptime": 0,
+  "version": "v2.0.0",
+  "user": "KIIT",
+  "deploy": 1754475360659,
+  "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+  "ip": [
+    {
+      "interface": "localhost",
+      "ip": "127.0.0.1",
+      "netmask": "255.0.0.0",
+      "type": "IPv4"
+    }
+  ],
+  "hosts": null,
+  "ssl": "",
+  "poll": 5000,
+  "health": {
+    "diskrw": {
+      "reads": 17940457,
+      "writes": 12616471
+    },
+    "core": 8,
+    "memory": {
+      "total": 15931,
+      "used": 88
+    },
+    "load": {
+      "min5": "0.00",
+      "min15": "0.00",
+      "min1": "",
+      "uptime": "7 days"
+    },
+    "cpu": {
+      "sy": 20,
+      "wa": 0,
+      "id": 70,
+      "us": 9
+    },
+    "diskinfo": [
+      {
+        "total": 497775612,
+        "name": "/conf",
+        "used": 80.5,
+        "type": "ext4"
+      }
+    ],
+    "network": {
+      "txbytes": 229011353,
+      "rxbytes": 449286607
+    }
+  }
+}
+2025-08-06 15:46:15,853 - INFO - Health monitor tick #3
+2025-08-06 15:46:15,853 - INFO - Reached maximum captures (3). Stopping monitor...
+2025-08-11 12:10:29,744 - INFO - Starting health monitoring with 10s interval
+2025-08-11 12:10:29,745 - INFO - Will automatically stop after 2 captures
+2025-08-11 12:10:30,847 - INFO - Health data collected (capture 1)
+2025-08-11 12:10:41,933 - INFO - Health data collected (capture 2)
+2025-08-11 13:01:15,505 - INFO - Starting health monitoring with 10s interval
+2025-08-11 13:01:15,505 - INFO - Will automatically stop after 2 captures
+2025-08-11 13:01:16,564 - INFO - Health data collected (capture 1)
+2025-08-11 13:01:27,654 - INFO - Health data collected (capture 2)
+2025-08-11 13:20:15,999 - INFO - Starting health monitoring with 10s interval
+2025-08-11 13:20:16,000 - INFO - Will automatically stop after 2 captures
+2025-08-11 13:20:17,108 - INFO - Health data collected (capture 1)
+2025-08-11 13:20:28,206 - INFO - Health data collected (capture 2)
+2025-08-11 14:33:08,335 - INFO - Starting health monitoring with 10s interval
+2025-08-11 14:33:08,337 - INFO - Will automatically stop after 2 captures
+2025-08-11 14:33:09,447 - INFO - Health data collected (capture 1)
+2025-08-11 14:33:20,742 - INFO - Health data collected (capture 2)

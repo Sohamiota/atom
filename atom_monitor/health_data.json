@@ -1,0 +1,374 @@
+[
+  {
+    "id": "cb7a2560",
+    "name": "worker-IotasLabyrinth-eacb53e1",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754894429745,
+    "mt": 1754894429745,
+    "alivets": 1754894429745,
+    "status": 1,
+    "running": true,
+    "starttime": 1754894429744,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754894429744,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 10000,
+    "health": {
+      "diskrw": {
+        "reads": 25273523,
+        "writes": 18662210
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 86
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "12 days"
+      },
+      "cpu": {
+        "sy": 10,
+        "wa": 0,
+        "id": 82,
+        "us": 7
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.5,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 55114664,
+        "rxbytes": 129282918
+      }
+    }
+  },
+  {
+    "id": "cb7a2560",
+    "name": "worker-IotasLabyrinth-eacb53e1",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754894440859,
+    "mt": 1754894440859,
+    "alivets": 1754894440859,
+    "status": 1,
+    "running": true,
+    "starttime": 1754894429744,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754894429744,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 10000,
+    "health": {
+      "diskrw": {
+        "reads": 25273540,
+        "writes": 18662592
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 86
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "12 days"
+      },
+      "cpu": {
+        "sy": 7,
+        "wa": 0,
+        "id": 88,
+        "us": 4
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.5,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 55150936,
+        "rxbytes": 129339279
+      }
+    }
+  },
+  {
+    "id": "61bf6990",
+    "name": "worker-IotasLabyrinth-3b8e10d6",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754897475505,
+    "mt": 1754897475505,
+    "alivets": 1754897475505,
+    "status": 1,
+    "running": true,
+    "starttime": 1754897475504,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754897475504,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 10000,
+    "health": {
+      "diskrw": {
+        "reads": 25412695,
+        "writes": 18792211
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 76
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "12 days"
+      },
+      "cpu": {
+        "sy": 8,
+        "wa": 0,
+        "id": 79,
+        "us": 12
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.4,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 74505771,
+        "rxbytes": 157561422
+      }
+    }
+  },
+  {
+    "id": "61bf6990",
+    "name": "worker-IotasLabyrinth-3b8e10d6",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754897486578,
+    "mt": 1754897486578,
+    "alivets": 1754897486578,
+    "status": 1,
+    "running": true,
+    "starttime": 1754897475504,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754897475504,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 10000,
+    "health": {
+      "diskrw": {
+        "reads": 25412725,
+        "writes": 18792486
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 77
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "12 days"
+      },
+      "cpu": {
+        "sy": 14,
+        "wa": 0,
+        "id": 63,
+        "us": 21
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.4,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 74515159,
+        "rxbytes": 157573862
+      }
+    }
+  },
+  {
+    "id": "434012cb",
+    "name": "worker-IotasLabyrinth-87f72cc8",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754898616000,
+    "mt": 1754898616000,
+    "alivets": 1754898616000,
+    "status": 1,
+    "running": true,
+    "starttime": 1754898615999,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754898615999,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 10000,
+    "health": {
+      "diskrw": {
+        "reads": 25436733,
+        "writes": 18834166
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 81
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "12 days"
+      },
+      "cpu": {
+        "sy": 20,
+        "wa": 0,
+        "id": 69,
+        "us": 8
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.4,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 92301289,
+        "rxbytes": 187886193
+      }
+    }
+  },
+  {
+    "id": "434012cb",
+    "name": "worker-IotasLabyrinth-87f72cc8",
+    "stype": "worker",
+    "project": "fleetpulse2",
+    "env": "prod",
+    "ct": 1754898627112   ,
+    "mt": 1754898627112,
+    "alivets": 1754898627112,
+    "status": 1,
+    "running": true,
+    "starttime": 1754898615999,
+    "stoptime": 0,
+    "version": "git-9764b7f",
+    "user": "KIIT",
+    "deploy": 1754898615999,
+    "commit": "9764b7f94b29eadc4e43d2e4790eef99357fbcde",
+    "ip": {
+      "interface": "primary",
+      "ip": "10.83.51.106",
+      "netmask": null,
+      "type": "IPv4"
+    },
+    "hosts": null,
+    "ssl": "",
+    "poll": 10000,
+    "health": {
+      "diskrw": {
+        "reads": 25436759,
+        "writes": 18834431
+      },
+      "core": 8,
+      "memory": {
+        "total": 15931,
+        "used": 80
+      },
+      "load": {
+        "min5": "0.00",
+        "min15": "0.00",
+        "min1": "",
+        "uptime": "12 days"
+      },
+      "cpu": {
+        "sy": 11,
+        "wa": 0,
+        "id": 81,
+        "us": 6
+      },
+      "diskinfo": [
+        {
+          "total": 497775612,
+          "name": "/conf",
+          "used": 79.4,
+          "type": "ext4"
+        }
+      ],
+      "network": {
+        "txbytes": 92359199,
+        "rxbytes": 187934301
+      }
+    }
+  }
+]
