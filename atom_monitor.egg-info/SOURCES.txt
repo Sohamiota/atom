@@ -1,0 +1,9 @@
+README.md
+setup.py
+atom_monitor.egg-info/PKG-INFO
+atom_monitor.egg-info/SOURCES.txt
+atom_monitor.egg-info/dependency_links.txt
+atom_monitor.egg-info/entry_points.txt
+atom_monitor.egg-info/not-zip-safe
+atom_monitor.egg-info/requires.txt
+atom_monitor.egg-info/top_level.txt
