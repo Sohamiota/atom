@@ -2,14 +2,15 @@ import getpass
 import json
 import logging
 import os
-import socket
 import subprocess
 import threading
 import time
 import uuid
 from typing import Any, Dict, Optional
 
+import logs
 import psutil
+from api import HealthAPIClient
 
 
 class HealthMonitor:
@@ -21,7 +22,8 @@ class HealthMonitor:
                 service: str = "4pc9typi",
                 version: Optional[str] = None,
                 auto_start: bool = False):
-
+        
+        self.api_client =  HealthAPIClient()
         self.atom = 1
         self.env = env
         self.stype = stype
@@ -92,20 +94,6 @@ class HealthMonitor:
             pass
         return "nogit" + str(int(time.time()))[:8]
 
-    #def _get_primary_ip_address(self) -> str:
-        try:
-            with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
-                s.connect(("8.8.8.8", 80))
-                return s.getsockname()[0]
-        except:
-            pass
-        try:
-            hostname = socket.gethostname()
-            return socket.gethostbyname(hostname)
-        except:
-            pass
-        return "127.0.0.1"
-
     def _get_uptime(self):
         try:
             with open('/proc/uptime', 'r') as f:
@@ -127,26 +115,13 @@ class HealthMonitor:
                 else:
                     return f"{hours} hours"
             except:
-                try:
-                    result = subprocess.run(['wmic', 'os', 'get', 'LastBootUpTime'],
-                                            capture_output=True, text=True, timeout=10)
-                    if result.returncode == 0:
-                        return "system uptime available"
-                except:
-                    pass
                 return "uptime unknown"
 
     def get_system_health(self) -> Dict[str, Any]:
         mem = psutil.virtual_memory()
         try:
             disk_io = psutil.disk_io_counters()
-            if disk_io:
-                diskrw = {
-                    "reads": disk_io.read_count,
-                    "writes": disk_io.write_count
-                }
-            else:
-                diskrw = {"reads": 0, "writes": 0}
+            diskrw = {"reads": disk_io.read_count, "writes": disk_io.write_count} if disk_io else {"reads": 0, "writes": 0}
         except:
             diskrw = {"reads": 0, "writes": 0}
 
@@ -160,30 +135,17 @@ class HealthMonitor:
                     "uptime": self._get_uptime()
                 }
             else:
-                try:
-                    cpu_count = psutil.cpu_count()
-                    cpu_percent = psutil.cpu_percent(interval=0.1)
-                    approx_load = (cpu_percent / 100.0) * cpu_count
-                    load = {
-                        "min1": f"{approx_load:.2f}",
-                        "min5": f"{approx_load:.2f}",
-                        "min15": f"{approx_load:.2f}",
-                        "uptime": self._get_uptime()
-                    }
-                except:
-                    load = {
-                        "min1": "0.00",
-                        "min5": "0.00",
-                        "min15": "0.00",
-                        "uptime": self._get_uptime()
-                    }
+                cpu_count = psutil.cpu_count()
+                cpu_percent = psutil.cpu_percent(interval=0.1)
+                approx_load = (cpu_percent / 100.0) * cpu_count
+                load = {
+                    "min1": f"{approx_load:.2f}",
+                    "min5": f"{approx_load:.2f}",
+                    "min15": f"{approx_load:.2f}",
+                    "uptime": self._get_uptime()
+                }
         except:
-            load = {
-                "min1": "0.00",
-                "min5": "0.00",
-                "min15": "0.00",
-                "uptime": "unknown"
-            }
+            load = {"min1": "0.00", "min5": "0.00", "min15": "0.00", "uptime": "unknown"}
 
         try:
             cpu_times = psutil.cpu_times_percent(interval=1.0)
@@ -194,16 +156,8 @@ class HealthMonitor:
                 "us": round(cpu_times.user) if hasattr(cpu_times, 'user') else 0
             }
         except:
-            try:
-                cpu_percent = psutil.cpu_percent(interval=1.0)
-                cpu_stats = {
-                    "sy": round(cpu_percent * 0.3),
-                    "wa": 0,
-                    "id": round(100 - cpu_percent),
-                    "us": round(cpu_percent * 0.7)
-                }
-            except:
-                cpu_stats = {"sy": 0, "wa": 0, "id": 100, "us": 0}
+            cpu_percent = psutil.cpu_percent(interval=1.0)
+            cpu_stats = {"sy": round(cpu_percent * 0.3), "wa": 0, "id": round(100 - cpu_percent), "us": round(cpu_percent * 0.7)}
 
         diskinfo = []
         try:
@@ -243,22 +197,11 @@ class HealthMonitor:
                         "type": "ext4"
                     }]
             except:
-                diskinfo = [{
-                    "total": 0,
-                    "name": "/unknown",
-                    "used": 0.0,
-                    "type": "unknown"
-                }]
+                diskinfo = [{"total": 0, "name": "/unknown", "used": 0.0, "type": "unknown"}]
 
         try:
             net_io = psutil.net_io_counters()
-            if net_io:
-                network = {
-                    "txbytes": net_io.bytes_sent // 1024,
-                    "rxbytes": net_io.bytes_recv // 1024
-                }
-            else:
-                network = {"txbytes": 0, "rxbytes": 0}
+            network = {"txbytes": net_io.bytes_sent // 1024, "rxbytes": net_io.bytes_recv // 1024} if net_io else {"txbytes": 0, "rxbytes": 0}
         except:
             network = {"txbytes": 0, "rxbytes": 0}
 
@@ -275,24 +218,15 @@ class HealthMonitor:
                 "service": self.service,
                 "stype": self.stype,
                 "running": self.running,
-                "info": {
-                    "version": self.version,
-                    "commit": current_commit
-                },
-                "logs": [
-    {
-        "ct": 1697744302000,
-        "level": 2,
-        "msg": "Sample log message"
-    }
-    ],
+                "info": {"version": self.version, "commit": current_commit},
+                "logs": logs.flush_logs() or [
+    {"ct": int(time.time() * 1000), "level": 20,
+    "msg": f"Health data collected - Capture #{self.capture_count + 1}"}
+],
                 "cpu": {
                     "diskrw": diskrw,
                     "core": psutil.cpu_count(),
-                    "memory": {
-                        "total": mem.total // (1024 * 1024),
-                        "used": round(mem.percent)
-                    },
+                    "memory": {"total": mem.total // (1024 * 1024), "used": round(mem.percent)},
                     "load": load,
                     "cpu": cpu_stats,
                     "diskinfo": diskinfo,
@@ -302,39 +236,20 @@ class HealthMonitor:
         }
         return payload
 
-    def check_anomalies(self, data: Dict[str, Any]):
-        alerts = []
-        try:
-            mem_used = data["params"]["cpu"]["memory"]["used"]
-            cpu_used = data["params"]["cpu"]["cpu"]["us"]
-            disk_used = data["params"]["cpu"]["diskinfo"][0]["used"]
-
-            if mem_used > 90:
-                alerts.append(f"High memory usage ({mem_used}%)")
-            if cpu_used > 85:
-                alerts.append(f"High CPU usage ({cpu_used}%)")
-            if disk_used > 95:
-                alerts.append(f"High disk usage ({disk_used}%)")
-        except Exception as e:
-            self.logger.error(f"Anomaly check failed: {e}")
-
-        if not alerts:
-            alerts.append("No alerts detected")
-
-        return alerts
-
     def _monitoring_loop(self):
         self.logger.info(f"Starting health monitoring with {self.poll_interval}s interval")
         while self.running:
             try:
                 health_data = self.get_system_health()
                 if health_data:
-                    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Health Data Collected:")
-                    print(json.dumps(health_data, indent=2))
-                    print("-" * 80)
-
-                    alerts = self.check_anomalies(health_data)
-                    self.logger.warning(f"Alerts detected: {alerts}")
+                    if self.api_client:
+                        try:
+                            api_results = self.api_client.health_check_cycle(health_data)
+                            self.logger.info(f"API Status: Health={api_results['health_response'].status_code if api_results['health_response'] else 'Failed'}, Alerts={api_results['alert_response'].status_code if api_results['alert_response'] else 'Failed'}, Notify={api_results['notify_response'].status_code if api_results['notify_response'] else 'Failed'}")
+                        except Exception as e:
+                            self.logger.error(f"API communication failed: {e}")
+                    else:
+                        print(json.dumps(health_data, indent=2))
 
                     self._save_health_data(health_data)
                     self.capture_count += 1
@@ -358,15 +273,12 @@ class HealthMonitor:
         try:
             existing_data = []
             if os.path.exists(self.output_file):
-                try:
-                    with open(self.output_file, 'r') as f:
-                        content = f.read().strip()
-                        if content:
-                            existing_data = json.loads(content)
-                            if not isinstance(existing_data, list):
-                                existing_data = [existing_data]
-                except:
-                    existing_data = []
+                with open(self.output_file, 'r') as f:
+                    content = f.read().strip()
+                    if content:
+                        existing_data = json.loads(content)
+                        if not isinstance(existing_data, list):
+                            existing_data = [existing_data]
             existing_data.append(health_data)
             if len(existing_data) > 1000:
                 existing_data = existing_data[-1000:]
@@ -390,9 +302,13 @@ class HealthMonitor:
         if max_captures:
             self.logger.info(f"Will stop after {max_captures} captures")
 
+        if self.api_client:
+            self.logger.info("API client configured - data will be sent to remote service")
+        else:
+            self.logger.info("No API client - running in local mode only")
+
         self.monitor_thread = threading.Thread(target=self._monitoring_loop, daemon=True)
         self.monitor_thread.start()
-
         return self
 
     def stop(self):
@@ -417,16 +333,6 @@ class HealthMonitor:
                 self.logger.info("Interrupted while waiting for completion")
                 self.stop()
 
-    def get_status(self) -> Dict[str, Any]:
-        return {
-            "running": self.running,
-            "captures_collected": self.capture_count,
-            "max_captures": self.max_captures,
-            "poll_interval": self.poll_interval,
-            "output_file": self.output_file,
-            "thread_alive": self.monitor_thread.is_alive() if self.monitor_thread else False
-        }
-
     def get_health_data(self, interval: int = None, captures: int = None) -> Any:
         if interval and captures:
             self.start(interval=interval, max_captures=captures)
@@ -442,13 +348,16 @@ class HealthMonitor:
     def is_running(self) -> bool:
         return self.running
 
+    def set_api_client(self, api_client):
+        self.api_client = api_client
+        self.logger.info("API client has been configured")
+
 
 if __name__ == "__main__":
     import sys
 
     interval = 10
     max_captures = None
-    auto_start = True
 
     if len(sys.argv) > 1:
         try:
@@ -462,11 +371,7 @@ if __name__ == "__main__":
         except ValueError:
             print("Invalid max_captures. Running indefinitely.")
 
-    print(f"Health Monitor Starting...")
-    print(f"Interval: {interval} seconds")
-    print(f"Max captures: {max_captures if max_captures else 'Unlimited'}")
-    print("Press Ctrl+C to stop\n")
-
+    api_client = HealthAPIClient()
     monitor = HealthMonitor()
 
     try:
