@@ -1,0 +1,11 @@
+atom-env/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+logs/
+health_data.json
+health_output.json
+monitor.logs
+monitor.log
+atom_monitor.egg-info/
