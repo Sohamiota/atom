@@ -10,8 +10,16 @@ from typing import Any, Dict, Optional
 
 import logs
 import psutil
-from api import HealthAPIClient
+from api import api_client
 
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('monitor.log'),
+        logging.StreamHandler()
+    ]
+)
 
 class HealthMonitor:
     def __init__(self,
@@ -19,11 +27,9 @@ class HealthMonitor:
                 stype: str = "monitor",
                 name: Optional[str] = None,
                 project: Optional[str] = None,
-                service: str = "4pc9typi",
+                service: str = "4pc9typi", 
                 version: Optional[str] = None,
                 auto_start: bool = False):
-        
-        self.api_client =  HealthAPIClient()
         self.atom = 1
         self.env = env
         self.stype = stype
@@ -41,14 +47,6 @@ class HealthMonitor:
         self.start_time = int(time.time() * 1000)
         self.auto_start = auto_start
 
-        logging.basicConfig(
-            level=logging.INFO,
-            format='%(asctime)s - %(levelname)s - %(message)s',
-            handlers=[
-                logging.FileHandler('monitor.log'),
-                logging.StreamHandler()
-            ]
-        )
         self.logger = logging.getLogger(__name__)
 
         if self.auto_start:
@@ -118,123 +116,134 @@ class HealthMonitor:
                 return "uptime unknown"
 
     def get_system_health(self) -> Dict[str, Any]:
-        mem = psutil.virtual_memory()
+        # Add in one try block for system health gathering
         try:
-            disk_io = psutil.disk_io_counters()
-            diskrw = {"reads": disk_io.read_count, "writes": disk_io.write_count} if disk_io else {"reads": 0, "writes": 0}
-        except:
-            diskrw = {"reads": 0, "writes": 0}
-
-        try:
-            if hasattr(os, 'getloadavg'):
-                load_avg = os.getloadavg()
-                load = {
-                    "min1": f"{load_avg[0]:.2f}",
-                    "min5": f"{load_avg[1]:.2f}",
-                    "min15": f"{load_avg[2]:.2f}",
-                    "uptime": self._get_uptime()
-                }
-            else:
-                cpu_count = psutil.cpu_count()
-                cpu_percent = psutil.cpu_percent(interval=0.1)
-                approx_load = (cpu_percent / 100.0) * cpu_count
-                load = {
-                    "min1": f"{approx_load:.2f}",
-                    "min5": f"{approx_load:.2f}",
-                    "min15": f"{approx_load:.2f}",
-                    "uptime": self._get_uptime()
-                }
-        except:
-            load = {"min1": "0.00", "min5": "0.00", "min15": "0.00", "uptime": "unknown"}
-
-        try:
-            cpu_times = psutil.cpu_times_percent(interval=1.0)
-            cpu_stats = {
-                "sy": round(cpu_times.system) if hasattr(cpu_times, 'system') else 0,
-                "wa": round(cpu_times.iowait) if hasattr(cpu_times, 'iowait') else 0,
-                "id": round(cpu_times.idle) if hasattr(cpu_times, 'idle') else 100,
-                "us": round(cpu_times.user) if hasattr(cpu_times, 'user') else 0
-            }
-        except:
-            cpu_percent = psutil.cpu_percent(interval=1.0)
-            cpu_stats = {"sy": round(cpu_percent * 0.3), "wa": 0, "id": round(100 - cpu_percent), "us": round(cpu_percent * 0.7)}
-
-        diskinfo = []
-        try:
-            partitions = psutil.disk_partitions()
-            for partition in partitions:
-                try:
-                    disk_usage = psutil.disk_usage(partition.mountpoint)
-                    if disk_usage.total > 0:
-                        diskinfo.append({
-                            "total": disk_usage.total // 1024,
-                            "name": partition.mountpoint,
-                            "used": round((disk_usage.used / disk_usage.total) * 100, 2),
-                            "type": partition.fstype
-                        })
-                        break
-                except (PermissionError, OSError):
-                    continue
-        except:
-            pass
-
-        if not diskinfo:
+            mem = psutil.virtual_memory()
+            
+            # Disk I/O
             try:
-                if os.name == 'nt':
-                    disk_usage = psutil.disk_usage('C:\\')
-                    diskinfo = [{
-                        "total": disk_usage.total // 1024,
-                        "name": "C:\\",
-                        "used": round((disk_usage.used / disk_usage.total) * 100, 2),
-                        "type": "NTFS"
-                    }]
-                else:
-                    disk_usage = psutil.disk_usage('/')
-                    diskinfo = [{
-                        "total": disk_usage.total // 1024,
-                        "name": "/",
-                        "used": round((disk_usage.used / disk_usage.total) * 100, 2),
-                        "type": "ext4"
-                    }]
+                disk_io = psutil.disk_io_counters()
+                diskrw = {"reads": disk_io.read_count, "writes": disk_io.write_count} if disk_io else {"reads": 0, "writes": 0}
             except:
-                diskinfo = [{"total": 0, "name": "/unknown", "used": 0.0, "type": "unknown"}]
+                diskrw = {"reads": 0, "writes": 0}
 
-        try:
-            net_io = psutil.net_io_counters()
-            network = {"txbytes": net_io.bytes_sent // 1024, "rxbytes": net_io.bytes_recv // 1024} if net_io else {"txbytes": 0, "rxbytes": 0}
-        except:
-            network = {"txbytes": 0, "rxbytes": 0}
+            # Load average
+            try:
+                if hasattr(os, 'getloadavg'):
+                    load_avg = os.getloadavg()
+                    load = {
+                        "min1": f"{load_avg[0]:.2f}",
+                        "min5": f"{load_avg[1]:.2f}",
+                        "min15": f"{load_avg[2]:.2f}",
+                        "uptime": self._get_uptime()
+                    }
+                else:
+                    cpu_count = psutil.cpu_count()
+                    cpu_percent = psutil.cpu_percent(interval=0.1)
+                    approx_load = (cpu_percent / 100.0) * cpu_count
+                    load = {
+                        "min1": f"{approx_load:.2f}",
+                        "min5": f"{approx_load:.2f}",
+                        "min15": f"{approx_load:.2f}",
+                        "uptime": self._get_uptime()
+                    }
+            except:
+                load = {"min1": "0.00", "min5": "0.00", "min15": "0.00", "uptime": "unknown"}
 
-        current_commit = self._get_git_commit()
+            # CPU stats
+            try:
+                cpu_times = psutil.cpu_times_percent(interval=1.0)
+                cpu_stats = {
+                    "sy": round(cpu_times.system) if hasattr(cpu_times, 'system') else 0,
+                    "wa": round(cpu_times.iowait) if hasattr(cpu_times, 'iowait') else 0,
+                    "id": round(cpu_times.idle) if hasattr(cpu_times, 'idle') else 100,
+                    "us": round(cpu_times.user) if hasattr(cpu_times, 'user') else 0
+                }
+            except:
+                cpu_percent = psutil.cpu_percent(interval=1.0)
+                cpu_stats = {"sy": round(cpu_percent * 0.3), "wa": 0, "id": round(100 - cpu_percent), "us": round(cpu_percent * 0.7)}
 
-        payload = {
-            "jsonrpc": "2.0",
-            "method": "service.health",
-            "params": {
-                "atom": self.atom,
-                "name": "AtomClient",
-                "env": self.env,
-                "project": "HealthMonitoring",
-                "service": self.service,
-                "stype": self.stype,
-                "running": self.running,
-                "info": {"version": self.version, "commit": current_commit},
-                "logs": logs.flush_logs() or [
-    {"ct": int(time.time() * 1000), "level": 20,
-    "msg": f"Health data collected - Capture #{self.capture_count + 1}"}
-],
-                "cpu": {
-                    "diskrw": diskrw,
-                    "core": psutil.cpu_count(),
-                    "memory": {"total": mem.total // (1024 * 1024), "used": round(mem.percent)},
-                    "load": load,
-                    "cpu": cpu_stats,
-                    "diskinfo": diskinfo,
-                    "network": network
+            # Disk info
+            diskinfo = []
+            try:
+                partitions = psutil.disk_partitions()
+                for partition in partitions:
+                    try:
+                        disk_usage = psutil.disk_usage(partition.mountpoint)
+                        if disk_usage.total > 0:
+                            diskinfo.append({
+                                "total": disk_usage.total // 1024,
+                                "name": partition.mountpoint,
+                                "used": round((disk_usage.used / disk_usage.total) * 100, 2),
+                                "type": partition.fstype
+                            })
+                            break
+                    except (PermissionError, OSError):
+                        continue
+            except:
+                pass
+
+            if not diskinfo:
+                try:
+                    if os.name == 'nt':
+                        disk_usage = psutil.disk_usage('C:\\')
+                        diskinfo = [{
+                            "total": disk_usage.total // 1024,
+                            "name": "C:\\",
+                            "used": round((disk_usage.used / disk_usage.total) * 100, 2),
+                            "type": "NTFS"
+                        }]
+                    else:
+                        disk_usage = psutil.disk_usage('/')
+                        diskinfo = [{
+                            "total": disk_usage.total // 1024,
+                            "name": "/",
+                            "used": round((disk_usage.used / disk_usage.total) * 100, 2),
+                            "type": "ext4"
+                        }]
+                except:
+                    diskinfo = [{"total": 0, "name": "/unknown", "used": 0.0, "type": "unknown"}]
+
+            # Network stats
+            try:
+                net_io = psutil.net_io_counters()
+                network = {"txbytes": net_io.bytes_sent // 1024, "rxbytes": net_io.bytes_recv // 1024} if net_io else {"txbytes": 0, "rxbytes": 0}
+            except:
+                network = {"txbytes": 0, "rxbytes": 0}
+
+            current_commit = self._get_git_commit()
+
+            payload = {
+                "jsonrpc": "2.0",
+                "method": "service.health",
+                "params": {
+                    "atom": self.atom,
+                    "name": "AtomClient",
+                    "env": self.env,
+                    "project": "HealthMonitoring",
+                    "service": self.service,
+                    "stype": self.stype,
+                    "running": self.running,
+                    "info": {"version": self.version, "commit": current_commit},
+                    "logs": logs.flush_logs() or [
+        {"ct": int(time.time() * 1000), "level": 20,
+        "msg": f"Health data collected - Capture #{self.capture_count + 1}"}
+    ],
+                    "cpu": {
+                        "diskrw": diskrw,
+                        "core": psutil.cpu_count(),
+                        "memory": {"total": mem.total // (1024 * 1024), "used": round(mem.percent)},
+                        "load": load,
+                        "cpu": cpu_stats,
+                        "diskinfo": diskinfo,
+                        "network": network
+                    }
                 }
             }
-        }
-        return payload
+            return payload
+        except Exception as e:
+            self.logger.error(f"Error collecting system health data: {e}")
+            return {}
 
     def _monitoring_loop(self):
         self.logger.info(f"Starting health monitoring with {self.poll_interval}s interval")
@@ -244,14 +253,32 @@ class HealthMonitor:
                 if health_data:
                     if self.api_client:
                         try:
+                            # Make API call and catch 4XX errors
                             api_results = self.api_client.health_check_cycle(health_data)
+                            
+                            # Check for 4XX errors
+                            if api_results.get('health_response'):
+                                if 400 <= api_results['health_response'].status_code < 500:
+                                    self.logger.error(f"Client error in health API call: {api_results['health_response'].status_code}")
+                            
+                            if api_results.get('alert_response'):
+                                if 400 <= api_results['alert_response'].status_code < 500:
+                                    self.logger.error(f"Client error in alert API call: {api_results['alert_response'].status_code}")
+                            
+                            if api_results.get('notify_response'):
+                                if 400 <= api_results['notify_response'].status_code < 500:
+                                    self.logger.error(f"Client error in notify API call: {api_results['notify_response'].status_code}")
+                            
                             self.logger.info(f"API Status: Health={api_results['health_response'].status_code if api_results['health_response'] else 'Failed'}, Alerts={api_results['alert_response'].status_code if api_results['alert_response'] else 'Failed'}, Notify={api_results['notify_response'].status_code if api_results['notify_response'] else 'Failed'}")
                         except Exception as e:
+                            # Print log here if not getting the response
                             self.logger.error(f"API communication failed: {e}")
+                            self.logger.warning("Unable to send health data to API endpoint")
                     else:
                         print(json.dumps(health_data, indent=2))
 
-                    self._save_health_data(health_data)
+                    # Remove save code in the file - commenting out the save functionality
+                    # self._save_health_data(health_data)
                     self.capture_count += 1
                     self.logger.info(f"Health data collected (capture {self.capture_count})")
 
@@ -338,9 +365,6 @@ class HealthMonitor:
             self.start(interval=interval, max_captures=captures)
             while self.is_running():
                 time.sleep(1)
-            if os.path.exists(self.output_file):
-                with open(self.output_file, 'r') as f:
-                    return json.load(f)
             return {}
         else:
             return self.get_system_health()
@@ -371,7 +395,6 @@ if __name__ == "__main__":
         except ValueError:
             print("Invalid max_captures. Running indefinitely.")
 
-    api_client = HealthAPIClient()
     monitor = HealthMonitor()
 
     try:
