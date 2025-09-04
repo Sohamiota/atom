@@ -10,7 +10,7 @@ from typing import Any, Dict, Optional
 
 import logs
 import psutil
-from api import api_client
+from api import HealthAPIClient
 
 logging.basicConfig(
     level=logging.INFO,
@@ -27,7 +27,7 @@ class HealthMonitor:
                 stype: str = "monitor",
                 name: Optional[str] = None,
                 project: Optional[str] = None,
-                service: str = "4pc9typi", 
+                service: str = "4pc9typi",
                 version: Optional[str] = None,
                 auto_start: bool = False):
         self.atom = 1
@@ -116,18 +116,18 @@ class HealthMonitor:
                 return "uptime unknown"
 
     def get_system_health(self) -> Dict[str, Any]:
-        # Add in one try block for system health gathering
+        
         try:
             mem = psutil.virtual_memory()
             
-            # Disk I/O
+            
             try:
                 disk_io = psutil.disk_io_counters()
                 diskrw = {"reads": disk_io.read_count, "writes": disk_io.write_count} if disk_io else {"reads": 0, "writes": 0}
             except:
                 diskrw = {"reads": 0, "writes": 0}
 
-            # Load average
+            
             try:
                 if hasattr(os, 'getloadavg'):
                     load_avg = os.getloadavg()
@@ -150,7 +150,7 @@ class HealthMonitor:
             except:
                 load = {"min1": "0.00", "min5": "0.00", "min15": "0.00", "uptime": "unknown"}
 
-            # CPU stats
+            
             try:
                 cpu_times = psutil.cpu_times_percent(interval=1.0)
                 cpu_stats = {
@@ -163,7 +163,7 @@ class HealthMonitor:
                 cpu_percent = psutil.cpu_percent(interval=1.0)
                 cpu_stats = {"sy": round(cpu_percent * 0.3), "wa": 0, "id": round(100 - cpu_percent), "us": round(cpu_percent * 0.7)}
 
-            # Disk info
+            
             diskinfo = []
             try:
                 partitions = psutil.disk_partitions()
@@ -203,8 +203,6 @@ class HealthMonitor:
                         }]
                 except:
                     diskinfo = [{"total": 0, "name": "/unknown", "used": 0.0, "type": "unknown"}]
-
-            # Network stats
             try:
                 net_io = psutil.net_io_counters()
                 network = {"txbytes": net_io.bytes_sent // 1024, "rxbytes": net_io.bytes_recv // 1024} if net_io else {"txbytes": 0, "rxbytes": 0}
@@ -253,10 +251,10 @@ class HealthMonitor:
                 if health_data:
                     if self.api_client:
                         try:
-                            # Make API call and catch 4XX errors
+                            
                             api_results = self.api_client.health_check_cycle(health_data)
                             
-                            # Check for 4XX errors
+                            
                             if api_results.get('health_response'):
                                 if 400 <= api_results['health_response'].status_code < 500:
                                     self.logger.error(f"Client error in health API call: {api_results['health_response'].status_code}")
@@ -271,14 +269,12 @@ class HealthMonitor:
                             
                             self.logger.info(f"API Status: Health={api_results['health_response'].status_code if api_results['health_response'] else 'Failed'}, Alerts={api_results['alert_response'].status_code if api_results['alert_response'] else 'Failed'}, Notify={api_results['notify_response'].status_code if api_results['notify_response'] else 'Failed'}")
                         except Exception as e:
-                            # Print log here if not getting the response
+                            
                             self.logger.error(f"API communication failed: {e}")
                             self.logger.warning("Unable to send health data to API endpoint")
                     else:
                         print(json.dumps(health_data, indent=2))
 
-                    # Remove save code in the file - commenting out the save functionality
-                    # self._save_health_data(health_data)
                     self.capture_count += 1
                     self.logger.info(f"Health data collected (capture {self.capture_count})")
 
