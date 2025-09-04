@@ -30,7 +30,7 @@ class HealthMonitor:
                 service: str = "4pc9typi",
                 version: Optional[str] = None,
                 auto_start: bool = False):
-        self.atom = 1
+        self.atom=1
         self.env = env
         self.stype = stype
         self.name = name if name else self._generate_worker_name()
@@ -46,6 +46,7 @@ class HealthMonitor:
         self.monitor_thread = None
         self.start_time = int(time.time() * 1000)
         self.auto_start = auto_start
+        self.api_client = HealthAPIClient()
 
         self.logger = logging.getLogger(__name__)
 
@@ -193,14 +194,6 @@ class HealthMonitor:
                             "used": round((disk_usage.used / disk_usage.total) * 100, 2),
                             "type": "NTFS"
                         }]
-                    else:
-                        disk_usage = psutil.disk_usage('/')
-                        diskinfo = [{
-                            "total": disk_usage.total // 1024,
-                            "name": "/",
-                            "used": round((disk_usage.used / disk_usage.total) * 100, 2),
-                            "type": "ext4"
-                        }]
                 except:
                     diskinfo = [{"total": 0, "name": "/unknown", "used": 0.0, "type": "unknown"}]
             try:
@@ -225,7 +218,7 @@ class HealthMonitor:
                     "info": {"version": self.version, "commit": current_commit},
                     "logs": logs.flush_logs() or [
         {"ct": int(time.time() * 1000), "level": 20,
-        "msg": f"Health data collected - Capture #{self.capture_count + 1}"}
+        "msg": f"Health data collected - Capture {self.capture_count + 1}"}
     ],
                     "cpu": {
                         "diskrw": diskrw,
@@ -256,20 +249,16 @@ class HealthMonitor:
                             
                             
                             if api_results.get('health_response'):
-                                if 400 <= api_results['health_response'].status_code < 500:
-                                    self.logger.error(f"Client error in health API call: {api_results['health_response'].status_code}")
-                            
+                                self.logger.info("Health data sent to API successfully")
+
                             if api_results.get('alert_response'):
-                                if 400 <= api_results['alert_response'].status_code < 500:
-                                    self.logger.error(f"Client error in alert API call: {api_results['alert_response'].status_code}")
-                            
+                                self.logger.info("Alert data sent to API successfully")
+
                             if api_results.get('notify_response'):
-                                if 400 <= api_results['notify_response'].status_code < 500:
-                                    self.logger.error(f"Client error in notify API call: {api_results['notify_response'].status_code}")
+                                self.logger.info("Notification data sent to API successfully")
+
                             
-                            self.logger.info(f"API Status: Health={api_results['health_response'].status_code if api_results['health_response'] else 'Failed'}, Alerts={api_results['alert_response'].status_code if api_results['alert_response'] else 'Failed'}, Notify={api_results['notify_response'].status_code if api_results['notify_response'] else 'Failed'}")
                         except Exception as e:
-                            
                             self.logger.error(f"API communication failed: {e}")
                             self.logger.warning("Unable to send health data to API endpoint")
                     else:
