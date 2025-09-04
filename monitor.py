@@ -281,24 +281,6 @@ class HealthMonitor:
                 self.logger.error(f"Error in monitoring loop: {e}")
                 time.sleep(5)
 
-    def _save_health_data(self, health_data: Dict[str, Any]):
-        try:
-            existing_data = []
-            if os.path.exists(self.output_file):
-                with open(self.output_file, 'r') as f:
-                    content = f.read().strip()
-                    if content:
-                        existing_data = json.loads(content)
-                        if not isinstance(existing_data, list):
-                            existing_data = [existing_data]
-            existing_data.append(health_data)
-            if len(existing_data) > 1000:
-                existing_data = existing_data[-1000:]
-            with open(self.output_file, 'w') as f:
-                json.dump(existing_data, f, indent=2, separators=(',', ': '))
-        except Exception as e:
-            self.logger.error(f"Error saving health data: {e}")
-
     def start(self, interval: int = 10, output_file: str = "health_data.json", max_captures: Optional[int] = None):
         if self.running:
             self.logger.warning("Monitor is already running!")
