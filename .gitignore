@@ -1,11 +1,50 @@
-atom-env/
+# Python
 __pycache__/
-*.pyc
-*.egg-info/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+atom-env/
+venv/
+env/
+ENV/
+.venv
+
+# Distribution / packaging
+build/
 dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Logs
+*.log
 logs/
+monitor.log
+monitor.logs
+
+# Data files
 health_data.json
 health_output.json
-monitor.logs
-monitor.log
-atom_monitor.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.local
